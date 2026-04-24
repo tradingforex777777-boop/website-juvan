@@ -38,7 +38,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'py-4 bg-primary-dark shadow-lg' : 'py-6 bg-transparent'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'py-4 bg-primary-dark shadow-lg' : 'py-6 bg-primary-dark'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3">
           <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? 'brightness-0 invert' :''}`} />
@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-white-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-[#25D366]-800')}`}
+              className={`text-sm font-medium transition-colors hover:text-white-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
             >
               {link.name}
             </Link>
