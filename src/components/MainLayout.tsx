@@ -513,6 +513,7 @@ const Activity = () => {
           <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
         </div>
       </section>
+      
       {/* Banner Section */}
       <section className="px-6 mb-16">
         <div className="max-w-7xl mx-auto">
@@ -601,6 +602,7 @@ const Contact = () => {
           <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
         </div>
       </section>
+      
       {/* Banner Section */}
       <section className="px-6 mb-16">
         <div className="max-w-7xl mx-auto">
