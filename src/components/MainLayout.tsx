@@ -492,8 +492,8 @@ const Product = () => {
   );
 };
 
-const galeri = () => {
-  const galeries = [
+const Activity = () => {
+  const Activities = [
     "https://iili.io/BUYP0np.png", "https://iili.io/BUYsfhx.png", "https://iili.io/BUYLgSt.png", 
     "https://iili.io/BUYZXja.png", "https://iili.io/BUYDBg2.png", "https://iili.io/BU10baI.png", 
     "https://iili.io/BU1E9UB.png", "https://iili.io/BU1Eaf4.png", "https://iili.io/BU1EXWb.png"
