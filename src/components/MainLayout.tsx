@@ -454,12 +454,16 @@ const Product = () => {
           </div>
         </div>
       </section>
-
+      
       {/* Legal & Inaproc */}
       <section className="px-6 space-y-12 mb-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
            {/* Keamanan & Legalitas */}
            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">
+             <div className="mb-8">
+                 <img src="https://i.ibb.co.com/BKy3XLvH/Dokumen-Legalitas.jpg" alt="Inaproc Logo" className="h-auto w-full mb-4 brightness-0 invert" />
+                 <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
+              </div>
              <h3 className="text-2xl font-bold mb-6 text-white">Keamanan & Legalitas</h3>
              <p className="text-white/80 leading-relaxed">
                Di PT Yuvan Raja Alkesindo kualitas dan keamanan produk adalah prioritas utama kami. Kami memahami bahwa kepercayaan customer berawal dari transparansi dan kepatuhan terhadap regulasi yang berlaku. Oleh karena itu, seluruh lini produk kami telah melalui serangkaian pengujian dan memiliki Izin Edar Resmi dari otoritas berwenang.
