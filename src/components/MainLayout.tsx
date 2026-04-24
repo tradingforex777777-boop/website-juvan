@@ -465,11 +465,10 @@ const Product = () => {
                Di PT Yuvan Raja Alkesindo kualitas dan keamanan produk adalah prioritas utama kami. Kami memahami bahwa kepercayaan customer berawal dari transparansi dan kepatuhan terhadap regulasi yang berlaku. Oleh karena itu, seluruh lini produk kami telah melalui serangkaian pengujian dan memiliki Izin Edar Resmi dari otoritas berwenang.
              </p>
            </div>
-
             {/* Inaproc */}
             <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">
               <div className="mb-8">
-                 <img src="https://katalog.inaproc.id/images/logo-katalog.svg" alt="Inaproc Logo" className="h-12 w-auto mb-4 brightness-0 invert" />
+                 <img src="https://i.ibb.co.com/TB0WJLDN/inaproc.png" alt="Inaproc Logo" className="h-12 w-auto mb-4 brightness-0 invert" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
               </div>
               <h3 className="text-2xl font-bold mb-6 text-white">Tersedia di E-Katalog Inaproc</h3>
