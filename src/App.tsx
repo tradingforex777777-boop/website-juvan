@@ -21,7 +21,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/tentang-kami" element={<About />} />
             <Route path="/produk" element={<Product />} />
-            <Route path="/galeri" element={<Activity />} />
+            <Route path="/activity" element={<Activity />} />
             <Route path="/hubungi-kami" element={<Contact />} />
           </Routes>
         </main>
