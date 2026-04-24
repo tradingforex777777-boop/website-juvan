@@ -142,13 +142,12 @@ const Footer = () => {
 const Home = () => {
   const [currentHeroImage, setCurrentHeroImage] = useState(0);
   const heroImages = [
+    "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=2070",
     "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=2070",
     "https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=2070",
-    "https://i.ibb.co.com/KzzQwZZm/CH12.jpg",
-    "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=2070"
+    "https://i.ibb.co.com/KzzQwZZm/CH12.jpg"    
   ];
-  <a href="https://ibb.co.com/k66r1nnM"><img src="https://i.ibb.co.com/KzzQwZZm/CH12.jpg" alt="CH12" border="0"></a>
-  
+    
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentHeroImage((prev) => (prev + 1) % heroImages.length);
