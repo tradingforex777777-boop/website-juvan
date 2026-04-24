@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-white-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
+              className={`text-sm font-medium transition-colors hover:text-dark-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
             >
               {link.name}
             </Link>
