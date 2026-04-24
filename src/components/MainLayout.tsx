@@ -506,6 +506,13 @@ const Activity = () => {
   
   return (
     <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+      {/* Header Section */}
+      <section className="px-6 mb-16 text-center">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Galeri Kami</h1>
+          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+        </div>
+      </section>
       {/* Banner Section */}
       <section className="px-6 mb-16">
         <div className="max-w-7xl mx-auto">
@@ -587,6 +594,13 @@ const Activity = () => {
 const Contact = () => {
   return (
     <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+      {/* Header Section */}
+      <section className="px-6 mb-16 text-center">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Kontak Kami</h1>
+          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+        </div>
+      </section>
       {/* Banner Section */}
       <section className="px-6 mb-16">
         <div className="max-w-7xl mx-auto">
