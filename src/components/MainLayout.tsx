@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'py-4 bg-primary-dark shadow-lg' : 'py-6 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? text-white 'brightness-0 invert' : ''}`} />
+          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? 'py-4 text-white' : 'brightness-0 invert' : ''}`} />
           <span className="text-lg md:text-xl font-bold font-display tracking-tight transition-all text-dark">
             PT YUVAN RAJA ALKESINDO
           </span>
