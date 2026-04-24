@@ -188,10 +188,10 @@ const Home = () => {
               Menghadirkan solusi kesehatan modern dengan integritas dan dedikasi tinggi untuk masa depan Indonesia yang lebih sehat.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="px-4 py-3 bg-primary-dark text-white rounded-full font-semibold hover:bg-[#128C7E] transition-all shadow-xl hover:shadow-blue-500/20">
+              <Link to="/contact" className="px-6 py-5 bg-primary-dark text-white rounded-full font-semibold hover:bg-white transition-all shadow-xl hover:shadow-blue-500/20">
                 Hubungi Kami
               </Link>
-              <a href="https://www.google.com/url?q=https%3A%2F%2Fkatalog.inaproc.id%2Fyuvan-raja-alkesindo&sa=D&sntz=1&usg=AOvVaw3lU-2ZtCCkS0NDFwLYl4QQ" target="_blank" rel="noreferrer" className="px-4 py-3 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-full font-semibold hover:bg-white hover:text-primary-dark transition-all">
+              <a href="https://www.google.com/url?q=https%3A%2F%2Fkatalog.inaproc.id%2Fyuvan-raja-alkesindo&sa=D&sntz=1&usg=AOvVaw3lU-2ZtCCkS0NDFwLYl4QQ" target="_blank" rel="noreferrer" className="px-6 py-5 bg-white text-white border border-white/30 rounded-full font-semibold hover:bg-white hover:text-primary-dark transition-all">
                 BUY
               </a>
             </div>
