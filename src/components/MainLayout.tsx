@@ -18,10 +18,10 @@ const CONTACT_INFO = {
 
 const NAV_LINKS = [
   { name: 'Home', path: '/' },
-  { name: 'Tentang', path: '/about' },
+  { name: 'About Us', path: '/about' },
   { name: 'Product', path: '/product' },
   { name: 'Activity', path: '/activity' },
-  { name: 'Hubungi Kami', path: '/contact' },
+  { name: 'Contact Us', path: '/contact' },
 ];
 
 // --- Components ---
