@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-blue-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
+              className={`text-sm font-medium transition-colors hover:text-white-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
             >
               {link.name}
             </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
             href={CONTACT_INFO.whatsapp}
             target="_blank"
             rel="noreferrer"
-            className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-md active:scale-95 ${scrolled ? 'bg-[#25D366] hover:bg-[#128C7E] text-white' : 'bg-primary-dark hover:bg-blue-800 text-dark'}`}
+            className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-md active:scale-95 ${scrolled ? 'bg-[#25D366] hover:bg-[#128C7E] text-white' : 'bg-primary-dark hover:bg-blue-800 text-white'}`}
           >
             WhatsApp Kami
           </a>
