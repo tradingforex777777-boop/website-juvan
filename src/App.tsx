@@ -19,10 +19,10 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/product" element={<Product />} />
-            <Route path="/activity" element={<Activity />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/tentang-kami" element={<About />} />
+            <Route path="/produk" element={<Product />} />
+            <Route path="/activitas" element={<Activity />} />
+            <Route path="/hubungi-kami" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
