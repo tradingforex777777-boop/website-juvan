@@ -363,14 +363,18 @@ const About = () => {
 
 const Product = () => {
   const products = [
-    { name: "Rapid test", url: "https://iili.io/BUGd4Xj.jpg" },
-    { name: "Immunology", url: "https://iili.io/BUGdl0N.jpg" },
-    { name: "Coagulation", url: "https://iili.io/BUGdIJ1.jpg" },
-    { name: "Urinalysis", url: "https://iili.io/BUGdSee.jpg" },
-    { name: "Chemistry", url: "https://iili.io/BUGdbmg.jpg" },
-    { name: "Serology", url: "https://iili.io/BUGdO12.jpg" },
-    { name: "Hematology", url: "https://iili.io/BUGdT5F.jpg" },
-    { name: "Hospital Furniture", url: "https://iili.io/BUQrnV4.jpg" },
+    { name: "Rapid test", url: "https://i.ibb.co.com/rGDCpfkd/rapid-test.jpg" },
+    { name: "Immunology", url: "https://i.ibb.co.com/jPxMdq54/Immunology.jpg" },
+    { name: "Coagulation", url: "https://i.ibb.co.com/W4gfXB46/Coagulation.jpg" },
+    { name: "Urinalysis", url: "https://i.ibb.co.com/TM6t49mM/Urinalysiss.jpg" },
+    { name: "Chemistry", url: "https://i.ibb.co.com/DPWtPD08/Chemistry.jpg" },
+    { name: "Serology", url: "https://i.ibb.co.com/9k1x8ZQG/Serology.jpg" },
+    { name: "Hematology", url: "https://i.ibb.co.com/LXX6YZcx/Hematology.jpg" },
+    { name: "Hospital Furniture", url: "https://i.ibb.co.com/8gwsDK40/Hospital-Furniture.jpg" },
+    { name: "BHP", url: "https://i.ibb.co.com/x83VB9Pk/bhp.jpg" },
+    { name: "ICU", url: "https://i.ibb.co.com/Y7qvNCLh/icu.jpg" },
+    { name: "Kalibrasi", url: "https://i.ibb.co.com/mrRh4hbG/kalibrasi.jpg" },
+    { name: "POLI", url: "https://i.ibb.co.com/r2bk7NdR/poli.jpg" },
   ];
 
   return (
@@ -435,7 +439,7 @@ const Product = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Produk Kami</h2>
             <p className="text-slate-500">Berbagai alat laboratorium dan elektromedis berkualitas tinggi</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-3 md:grid-cols-4 gap-6">
             {products.map((p, i) => (
               <motion.div 
                 key={i}
