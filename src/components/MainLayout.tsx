@@ -1,10 +1,11 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Logo } from './public';
 import { Menu, X, Phone, Mail, Instagram, Facebook, MapPin, ChevronRight, CheckCircle2, ShoppingCart, Activity as ActivityIcon, Users, Settings, ShieldCheck, HeartHandshake, MessageSquare } from 'lucide-react';
 
 // --- Constants ---
-const LOGO_URL = "https://iili.io/BUY42x2.png";
+const LOGO_URL <img src={Logo}; />
 const CONTACT_INFO = {
   address: "Jl. Mesjid Al-Mujahidin No.13, Setiadarma, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17158",
   mapsLink: "https://maps.app.goo.gl/NJGFj5nhkeXqH8c57",
