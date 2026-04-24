@@ -608,7 +608,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto">
           <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1549227082-0ea18ce30397?auto=format&fit=crop&q=80&w=2070" 
+              src="https://i.ibb.co.com/N2X6tN8x/51d4043c5e-1.jpg" 
               alt="Medical Support Team" 
               className="w-full h-full object-cover"
             />
