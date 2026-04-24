@@ -519,7 +519,7 @@ const Activity = () => {
         <div className="max-w-7xl mx-auto">
           <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
             <img 
-              src=""https://i.ibb.co.com/hRYVXDW1/tc1-1-800x445.jpg"
+              src="https://i.ibb.co.com/hRYVXDW1/tc1-1-800x445.jpg"
               alt="Medical Team Activity" 
               className="w-full h-full object-cover"
             />
