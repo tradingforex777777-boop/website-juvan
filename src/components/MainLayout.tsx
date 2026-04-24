@@ -169,7 +169,7 @@ const Home = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 1.5, ease: "easeInOut" }}
               alt="Medical equipment" 
-              className="w-full h-full object-cover brightness-[0.4]"
+              className="w-full h-full object-cover"
             />
           </AnimatePresence>
           <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/30 to-black/70"></div>
