@@ -20,7 +20,7 @@ const NAV_LINKS = [
   { name: 'Home', path: '/' },
   { name: 'Tentang Kami', path: '/tentang-kami' },
   { name: 'Produk', path: '/produk' },
-  { name: 'Galeri', path: '/galeri' },
+  { name: 'Galeri', path: '/activity' },
   { name: 'Hubungi Kami', path: '/hubungi-kami' },
 ];
 
