@@ -392,7 +392,7 @@ const Product = () => {
         <div className="max-w-7xl mx-auto">
           <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=2070" 
+              src="https://i.ibb.co.com/Y740ngf5/comfortable-patient-room-featuring-advanced-equipment-and-relaxing-bed-design-free-photo.jpg" 
               alt="Clinical Laboratory Service" 
               className="w-full h-full object-cover"
             />
