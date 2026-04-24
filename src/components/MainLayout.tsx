@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'py-4 bg-primary-dark shadow-lg' : 'py-6 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? 'brightness-100 invert' :''}`} />
+          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? 'brightness-0 invert' :''}`} />
           <span className="text-lg md:text-xl font-bold font-display tracking-tight transition-all text-white">
             PT YUVAN RAJA ALKESINDO
           </span>
@@ -62,7 +62,7 @@ const Navbar = () => {
             href={CONTACT_INFO.whatsapp}
             target="_blank"
             rel="noreferrer"
-            className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-md active:scale-95 ${scrolled ? 'bg-[#25D366] hover:bg-[#128C7E] text-white' : 'bg-primary-dark hover:bg-blue-800 text-white'}`}
+            className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-md active:scale-50 ${scrolled ? 'bg-[#25D366] hover:bg-[#128C7E] text-white' : 'bg-primary-dark hover:bg-blue-800 text-white'}`}
           >
             WhatsApp Kami
           </a>
