@@ -227,7 +227,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 20 }}
+            whileInView={{ opacity: 1, x: 50 }}
             viewport={{ once: true }}
             className="rounded-3xl overflow-hidden shadow-2xl relative"
           >
@@ -241,7 +241,7 @@ const Home = () => {
           
           <motion.div
             initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 20 }}
+            whileInView={{ opacity: 1, x: 50 }}
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-primary-dark">PT Yuvan Raja Alkesindo</h2>
