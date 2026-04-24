@@ -752,4 +752,4 @@ const Contact = () => {
   );
 };
 
-export { Navbar, Footer, Home, About, Product, Activity, Contact };
+export { Navbar, Footer, Home, About, Product, Galeri, Contact };
