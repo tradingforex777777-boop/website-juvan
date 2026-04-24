@@ -522,13 +522,7 @@ const Activity = () => {
               src="https://i.ibb.co.com/hRYVXDW1/tc1-1-800x445.jpg"
               alt="Medical Team Activity" 
               className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-transparent flex items-center p-12">
-              <div className="max-w-xl text-white">
-                <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-tight">Galeri Kami</h1>
-                <p className="text-blue-100 text-lg">Melihat lebih dekat dedikasi dan profesionalisme tim kami di lapangan.</p>
-              </div>
-            </div>
+            />            
           </div>
         </div>
       </section>
