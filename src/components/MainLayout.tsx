@@ -382,23 +382,7 @@ const Product = () => {
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Produk Kami</h1>
         </div>
       </section>
-
-      {/* Banner Section */}
-      <section className="px-6 mb-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
-            <img 
-              src="https://i.ibb.co.com/Y740ngf5/comfortable-patient-room-featuring-advanced-equipment-and-relaxing-bed-design-free-photo.jpg" 
-              alt="Clinical Laboratory Service" 
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="text-center">
-            <p className="text-slate-600 text-lg max-w-2xl mx-auto">Solusi terintegrasi untuk kebutuhan alat kesehatan Anda melalui layanan profesional dan produk berkualitas.</p>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Jual Beli */}
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
@@ -510,20 +494,7 @@ const Activity = () => {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Galeri Kami</h1>
         </div>
-      </section>
-      
-      {/* Banner Section */}
-      <section className="px-6 mb-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
-            <img 
-              src="https://i.ibb.co.com/hRYVXDW1/tc1-1-800x445.jpg"
-              alt="Medical Team Activity" 
-              className="w-full h-full object-cover"
-            />            
-          </div>
-        </div>
-      </section>
+      </section>      
 
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
