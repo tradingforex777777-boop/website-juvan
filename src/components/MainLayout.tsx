@@ -658,7 +658,7 @@ const Contact = () => {
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
                     <p className="text-white text-[11px] mb-2 truncate w-full px-1">{CONTACT_INFO.email}</p>
-                    <a href="mailto:yuvan.rajaalkesindo@gmail.com" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">OFFICIAL</a>
+                    <a href="mailto:yuvan.rajaalkesindo@gmail.com target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">OFFICIAL</a>
                   </div>
                 </div>
                
