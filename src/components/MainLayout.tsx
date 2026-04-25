@@ -663,7 +663,7 @@ const Contact = () => {
                       target="_blank" 
                       rel="noreferrer" 
                       className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
-                      SEND EMAIL
+                      SEND
                     </a>
                   </div>
                 </div>
