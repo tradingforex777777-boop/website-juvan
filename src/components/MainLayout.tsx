@@ -713,7 +713,8 @@ const Contact = () => {
                </form>
             </div>
           </div>
-        </div>        
+        </div>
+        <script src="whatsapp.js"></script>
       </section>      
 
       {/* Map Embed */}
