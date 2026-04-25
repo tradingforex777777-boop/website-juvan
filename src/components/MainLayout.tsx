@@ -235,7 +235,7 @@ const Home = () => {
               alt="Professional Healthcare" 
               className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
             />
-            <div className="absolute inset-0 bg-primary-dark mix-blend-multiply"></div>
+            <div className="absolute inset-0 mix-blend-multiply"></div>
           </motion.div>
           
           <motion.div
