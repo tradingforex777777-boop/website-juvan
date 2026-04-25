@@ -262,8 +262,8 @@ const Home = () => {
                   <p className="text-slate-500 font-medium">Terdepan Covid-19</p>
                 </div>
               </div>
-            </motion.div>
-          </div>
+            </div>
+          </motion.div>          
         </div>
       </section>
 
