@@ -240,8 +240,7 @@ const Home = () => {
           <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="lg:col-span-2 bg-primary-dark p-12 rounded-[2.5rem] text-white shadow-2xl flex flex-col justify-center border border-white/10"
+              viewport={{ once: true }}              
           >
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
