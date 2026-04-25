@@ -22,7 +22,7 @@ const NAV_LINKS = [
   { name: 'Produk', path: '/produk' },
   { name: 'Galeri', path: '/galeri' },
   { name: 'Hubungi Kami', path: '/hubungi-kami' },
-];
+];      
 
 // --- Components ---
 
@@ -583,7 +583,20 @@ const Activity = () => {
     </div>
   );
 };
-
+      <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          let nama = document.getElementById('nama').value;
+          let pesan = document.getElementById('pesan').value;
+          let url = "https://wa.me/6282312451989" + 
+                    "Nama: " + encodeURIComponent(nama) +
+                    "nomorhp: " + encodeURIComponent(nomorhp) +
+                    "email: " + encodeURIComponent(email) +
+                    "subjek: " + encodeURIComponent(subjek) +
+                    "Pesan: " + encodeURIComponent(pesan);
+          window.open(url, '_blank').focus();
+        });
+      </script>
 const Contact = () => {
   return (
     <div className="pt-24 pb-24 bg-primary-light min-h-screen">
@@ -679,24 +692,24 @@ const Contact = () => {
 
             <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem]">
                <h3 className="text-2xl text-white font-bold mb-8">Kirim Pesan</h3>
-               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+               <form id="whatsappForm" className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nama Lengkap</label>
-                     <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
+                     <input type="text" id="nama" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
                    </div>
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nomor HP</label>
-                     <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
+                     <input type="text" id="nomorhp" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
                    </div>
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Email</label>
-                   <input type="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
+                   <input type="email" id="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Subjek</label>
-                   <select className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
+                   <select id="subjek" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
                      <option>Konsultasi Alat</option>
                      <option>Layanan Servis</option>
                      <option>Kemitraan</option>
@@ -705,15 +718,15 @@ const Contact = () => {
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Pesan</label>
-                   <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
+                   <textarea id="pesan" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
-                 <button className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
+                 <button type="submit" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
                    Kirim Pesan Sekarang
                  </button>
                </form>
             </div>
           </div>
-        </div>
+        </div>        
       </section>
 
       {/* Map Embed */}
