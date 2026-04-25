@@ -221,7 +221,7 @@ const Home = () => {
       {/* History Section */}
       <section className="py-24 px-6 bg-sky-50">
         <div className="max-w-7xl mx-auto mb-16 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight uppercase border-40 bg-primary-dark">Sejarah</h2>
+          <h2 className="px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Sejarah</h2>
           <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
         </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
