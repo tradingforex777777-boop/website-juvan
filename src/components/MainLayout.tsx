@@ -483,7 +483,7 @@ const Product = () => {
                href="https://www.google.com/url?q=https%3A%2F%2Fkatalog.inaproc.id%2Fyuvan-raja-alkesindo&sa=D&sntz=1&usg=AOvVaw3lU-2ZtCCkS0NDFwLYl4QQ" 
                target="_blank"
                rel="noreferrer"
-               className="w-full flex justify-between items-center py-4 px-6 bg-white text-primary-dark rounded-2xl hover:bg-blue-50 transition-all group shadow-lg shadow-blue-900/20"
+               className="w-full flex justify-between items-center py-4 px-6 bg-white text-primary-dark rounded-2xl hover:bg-[#25D366] transition-all group shadow-lg shadow-blue-900/20"
              >
                <span className="font-semibold uppercase tracking-wider">Buy</span>
                <ShoppingCart size={20} className="group-hover:scale-110 transition-transform" />
