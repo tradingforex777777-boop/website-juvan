@@ -713,8 +713,9 @@ const Contact = () => {
                </form>
             </div>
           </div>
-        </div>
-        function sendwhatsapp(){
+        </div>        
+      </section>
+      function sendwhatsapp(){
             var phonenumber = "+6282312451989";
           
             var nama = document.queryselector('.nama').value;
@@ -731,7 +732,6 @@ const Contact = () => {
             +"*pesan :* " +pesan+"%0a%0a"
           window.open(url, '_blank').focus();      
           }
-      </section>
 
       {/* Map Embed */}
       <section className="px-6">
