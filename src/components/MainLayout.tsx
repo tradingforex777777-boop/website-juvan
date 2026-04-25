@@ -644,7 +644,7 @@ const Contact = () => {
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
                     <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
-                    <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#128C7E] transition-all border border-white/5">
+                    <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#128C7E] transition-all border border-white/5">
                       Chat
                     </a>
                   </div>
