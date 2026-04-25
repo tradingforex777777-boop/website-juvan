@@ -686,7 +686,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem] border border-slate-200">
+            <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem] border">
                <h3 className="text-2xl text-white font-bold mb-8">Kirim Pesan</h3>
                <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -716,7 +716,7 @@ const Contact = () => {
                    <label className="text-sm font-semibold text-white">Pesan</label>
                    <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
-                 <button className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg active:scale-95">
+                 <button className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
                    Kirim Pesan Sekarang
                  </button>
                </form>
