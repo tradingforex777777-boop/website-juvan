@@ -654,20 +654,20 @@ const Contact = () => {
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nama Lengkap</label>
-                     <input type="text" class="nama" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
+                     <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
                    </div>
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nomor HP</label>
-                     <input type="text" class="nomorhp" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
+                     <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
                    </div>
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Email</label>
-                   <input type="email" class="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
+                   <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Subjek</label>
-                   <select class="subjek" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
+                   <select className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
                      <option>Konsultasi Alat</option>
                      <option>Layanan Servis</option>
                      <option>Kemitraan</option>
@@ -676,9 +676,9 @@ const Contact = () => {
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Pesan</label>
-                   <textarea class="pesan" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
+                   <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
-                 <button type="button" onclick="sendwhatsapp();" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
+                 <button className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
                    Kirim Pesan Sekarang
                  </button>
                </form>
