@@ -274,7 +274,7 @@ const Home = () => {
 
 const About = () => {
   return (
-    <div className="pt-24 pb-24 bg-primary-light">
+    <div className="pt-0 bg-primary-light">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
