@@ -653,7 +653,7 @@ const Contact = () => {
                 <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:text-primary-dark transition-all transform group-hover:-rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
@@ -665,7 +665,7 @@ const Contact = () => {
                 <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:from-orange-500 group-hover:via-pink-500 group-hover:to-purple-500 group-hover:text-white transition-all">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Instagram size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
@@ -676,7 +676,7 @@ const Contact = () => {
                 <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:text-white transition-all">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#128C7E] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Facebook size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
