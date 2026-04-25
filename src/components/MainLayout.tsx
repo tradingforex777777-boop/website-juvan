@@ -587,6 +587,9 @@ const Activity = () => {
         document.getElementById('whatsappForm').addEventListener('submit', function(e) {
           e.preventDefault();
           let nama = document.getElementById('nama').value;
+          let nomorhp = document.getElementById('nomorhp').value;
+          let email = document.getElementById('email').value;
+          let subjek = document.getElementById('subjek').value;
           let pesan = document.getElementById('pesan').value;
           let url = "https://wa.me/6282312451989" + 
                     "Nama: " + encodeURIComponent(nama) +
