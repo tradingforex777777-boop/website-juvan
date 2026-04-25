@@ -245,7 +245,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-primary-dark">PT Yuvan Raja Alkesindo</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
                 PT Yuvan Raja Alkesindo didirikan tahun 2020. Dimana saat itu Indonesia dan seluruh dunia sedang dilanda pandemi global yaitu covid 19. Perusahaan ini didirikan dengan tujuan membantu pemerintah untuk menghilangkan wabah virus covid 19.
               </p>
@@ -254,11 +254,11 @@ const Home = () => {
               </p>
               <div className="mt-10 flex gap-12">
                 <div>
-                  <p className="text-4xl font-bold text-primary-dark">2020</p>
+                  <p className="text-4xl font-bold text-white">2020</p>
                   <p className="text-slate-500 font-medium">Tahun Berdiri</p>
                 </div>
                 <div>
-                  <p className="text-4xl font-bold text-primary-dark">Garda</p>
+                  <p className="text-4xl font-bold text-white">Garda</p>
                   <p className="text-slate-500 font-medium">Terdepan Covid-19</p>
                 </div>
               </div>
