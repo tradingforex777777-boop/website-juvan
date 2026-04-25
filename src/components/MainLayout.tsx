@@ -657,7 +657,7 @@ const Contact = () => {
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">{CONTACT_INFO.email}</p>
+                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">yuvan.rajaalkesindo@gmail.com</p>
                     <a 
                       href="mailto:yuvan.rajaalkesindo@gmail.com"
                       target="_blank" 
