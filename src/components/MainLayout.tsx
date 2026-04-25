@@ -685,8 +685,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <script src="whatsapp.js"></script>
-      </section>      
+     </section>      
 
       {/* Map Embed */}
       <section className="px-6">
