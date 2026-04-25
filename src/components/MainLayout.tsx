@@ -683,20 +683,20 @@ const Contact = () => {
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nama Lengkap</label>
-                     <input type="text" id="nama" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
+                     <input type="text" class="nama" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
                    </div>
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nomor HP</label>
-                     <input type="text" id="nomorhp" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
+                     <input type="text" class="nomorhp" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
                    </div>
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Email</label>
-                   <input type="email" id="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
+                   <input type="email" class="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Subjek</label>
-                   <select id="subjek" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
+                   <select class="subjek" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
                      <option>Konsultasi Alat</option>
                      <option>Layanan Servis</option>
                      <option>Kemitraan</option>
@@ -705,9 +705,9 @@ const Contact = () => {
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-semibold text-white">Pesan</label>
-                   <textarea id="pesan" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
+                   <textarea class="pesan" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
-                 <button type="submit" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
+                 <button type="button" onclick="sendwhatsapp" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
                    Kirim Pesan Sekarang
                  </button>
                </form>
@@ -715,22 +715,20 @@ const Contact = () => {
           </div>
         </div>
         <script>
-        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-          e.preventDefault();
-          let nama = document.getElementById('nama').value;
-          let nomorhp = document.getElementById('nomorhp').value;
-          let email = document.getElementById('email').value;
-          let subjek = document.getElementById('subjek').value;
-          let pesan = document.getElementById('pesan').value;
-          let url = "https://wa.me/6282312451989" + 
-                    "Nama: " + encodeURIComponent(nama) +
-                    "nomorhp: " + encodeURIComponent(nomorhp) +
-                    "email: " + encodeURIComponent(email) +
-                    "subjek: " + encodeURIComponent(subjek) +
-                    "Pesan: " + encodeURIComponent(pesan);
-          window.open(url, '_blank').focus();
-        });
-      </script>
+          function sendwhatsapp(){
+            var nama = document.queryselector('.nama').value;
+            var nomorhp = document.queryselector('.nomorhp').value;
+            var email = document.queryselector('.email').value;
+            var subjek = document.queryselector('.subjek').value;
+            var pesan = document.queryselector('.pesan').value;
+            var url = "https://wa.me/6282312451989" + nama + "?text="
+            +"*nomorhp :* " +nomorhp+"%0a"
+            +"*email :* " +email+"%0a"
+            +"*subjek :* " +subjek+"%0a"
+            +"*pesan :* " +pesan+"%0a"
+          window.open(url, '_blank').focus();      
+          }
+        </script>
       </section>
 
       {/* Map Embed */}
