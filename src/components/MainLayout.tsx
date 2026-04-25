@@ -707,7 +707,7 @@ const Contact = () => {
                    <label className="text-sm font-semibold text-white">Pesan</label>
                    <textarea class="pesan" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
-                 <button type="button" onclick="sendwhatsapp" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
+                 <button type="button" onclick="sendwhatsapp();" className="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold text-lg hover:bg-[#128C7E] transition-all shadow-lg active:scale-95">
                    Kirim Pesan Sekarang
                  </button>
                </form>
