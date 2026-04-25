@@ -23,7 +23,7 @@ function sendwhatsapp(){
     +"*nomorhp :* " +nomorhp+"%0a"
     +"*email :* " +email+"%0a"
     +"*subjek :* " +subjek+"%0a"
-    +"*pesan :* " +pesan+"%0a%0a"
+    +"*pesan :* " +pesan+"%0a%0a";
   
     window.open(url, '_blank').focus();      
   }
