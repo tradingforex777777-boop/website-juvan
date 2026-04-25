@@ -221,7 +221,7 @@ const Home = () => {
       {/* History Section */}
       <section className="py-24 px-6 bg-sky-50">
         <div className="max-w-7xl mx-auto mb-16 text-center">
-          <h2 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Sejarah</h2>
+          <h2 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">SEJARAH</h2>
         </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -276,8 +276,7 @@ const About = () => {
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Tentang Kami</h1>
-          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+          <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Tentang Kami</h1>
         </div>
       </section>
 
@@ -382,8 +381,7 @@ const Product = () => {
       {/* Header Section */}
       <section className="px-6 mb-12 text-center">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Produk Kami</h1>
-          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+          <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Produk Kami</h1>
         </div>
       </section>
 
@@ -512,8 +510,7 @@ const Activity = () => {
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Galeri Kami</h1>
-          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+          <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Galeri Kami</h1>
         </div>
       </section>
       
@@ -595,8 +592,7 @@ const Contact = () => {
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight uppercase">Kontak Kami</h1>
-          <div className="w-24 h-1.5 bg-primary-dark mx-auto rounded-full"></div>
+          <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
         </div>
       </section>
       
