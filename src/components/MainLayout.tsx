@@ -272,7 +272,7 @@ const Home = () => {
 
 const About = () => {
   return (
-    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
@@ -508,7 +508,7 @@ const Activity = () => {
   const prev = () => setActiveIndex((prev) => (prev - 1 + activities.length) % activities.length);
   
   return (
-    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
@@ -591,7 +591,7 @@ const Activity = () => {
 
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
