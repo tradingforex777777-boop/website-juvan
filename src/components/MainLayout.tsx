@@ -226,8 +226,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
+              whileInView={{ opacity: 1, scale: 1 }}              
           >
             <img 
               src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2070" 
