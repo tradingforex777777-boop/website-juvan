@@ -583,23 +583,7 @@ const Activity = () => {
     </div>
   );
 };
-      <script>
-        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-          e.preventDefault();
-          let nama = document.getElementById('nama').value;
-          let nomorhp = document.getElementById('nomorhp').value;
-          let email = document.getElementById('email').value;
-          let subjek = document.getElementById('subjek').value;
-          let pesan = document.getElementById('pesan').value;
-          let url = "https://wa.me/6282312451989" + 
-                    "Nama: " + encodeURIComponent(nama) +
-                    "nomorhp: " + encodeURIComponent(nomorhp) +
-                    "email: " + encodeURIComponent(email) +
-                    "subjek: " + encodeURIComponent(subjek) +
-                    "Pesan: " + encodeURIComponent(pesan);
-          window.open(url, '_blank').focus();
-        });
-      </script>
+      
 const Contact = () => {
   return (
     <div className="pt-24 pb-24 bg-primary-light min-h-screen">
@@ -729,7 +713,24 @@ const Contact = () => {
                </form>
             </div>
           </div>
-        </div>        
+        </div>
+        <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          let nama = document.getElementById('nama').value;
+          let nomorhp = document.getElementById('nomorhp').value;
+          let email = document.getElementById('email').value;
+          let subjek = document.getElementById('subjek').value;
+          let pesan = document.getElementById('pesan').value;
+          let url = "https://wa.me/6282312451989" + 
+                    "Nama: " + encodeURIComponent(nama) +
+                    "nomorhp: " + encodeURIComponent(nomorhp) +
+                    "email: " + encodeURIComponent(email) +
+                    "subjek: " + encodeURIComponent(subjek) +
+                    "Pesan: " + encodeURIComponent(pesan);
+          window.open(url, '_blank').focus();
+        });
+      </script>
       </section>
 
       {/* Map Embed */}
