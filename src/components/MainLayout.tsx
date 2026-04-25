@@ -592,23 +592,8 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
         </div>
-      </section>
-      
-      {/* Banner Section */}
-      <section className="px-6 mb-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
-            <img 
-              src="https://i.ibb.co.com/N2X6tN8x/51d4043c5e-1.jpg" 
-              alt="Medical Support Team" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-transparent flex items-center p-12">
-            </div>
-          </div>
-        </div>
-      </section>
-
+      </section>      
+     
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
