@@ -238,9 +238,9 @@ const Home = () => {
           </motion.div>
           
           <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}              
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}         
           >
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
@@ -294,8 +294,9 @@ const About = () => {
               </p>
             </div>
             <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
               className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
             >
               <img 
@@ -316,9 +317,9 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-stretch">
             {/* Visi */}
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
               className="lg:col-span-2 bg-primary-dark p-12 rounded-[2.5rem] text-white shadow-2xl flex flex-col justify-center border border-white/10"
             >
               <h3 className="text-4xl font-bold mb-8">Visi Kami</h3>
@@ -329,10 +330,9 @@ const About = () => {
 
             {/* Misi */}
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
               className="lg:col-span-3 bg-primary-dark p-12 rounded-[2.5rem] border border-white/10 shadow-xl"
             >
               <div className="mb-10">
@@ -686,25 +686,25 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-sky-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-200">
+            <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem] border border-slate-200">
                <h3 className="text-2xl font-bold mb-8">Kirim Pesan</h3>
                <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                    <div className="space-y-2">
-                     <label className="text-sm font-semibold text-slate-700">Nama Lengkap</label>
+                     <label className="text-sm font-semibold text-white">Nama Lengkap</label>
                      <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
                    </div>
                    <div className="space-y-2">
-                     <label className="text-sm font-semibold text-slate-700">Nomor HP</label>
+                     <label className="text-sm font-semibold text-white">Nomor HP</label>
                      <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
                    </div>
                  </div>
                  <div className="space-y-2">
-                   <label className="text-sm font-semibold text-slate-700">Email</label>
+                   <label className="text-sm font-semibold text-white">Email</label>
                    <input type="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
                  </div>
                  <div className="space-y-2">
-                   <label className="text-sm font-semibold text-slate-700">Subjek</label>
+                   <label className="text-sm font-semibold text-white">Subjek</label>
                    <select className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
                      <option>Konsultasi Alat</option>
                      <option>Layanan Servis</option>
@@ -713,7 +713,7 @@ const Contact = () => {
                    </select>
                  </div>
                  <div className="space-y-2">
-                   <label className="text-sm font-semibold text-slate-700">Pesan</label>
+                   <label className="text-sm font-semibold text-white">Pesan</label>
                    <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
                  <button className="w-full py-4 bg-primary-dark text-white rounded-xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg active:scale-95">
