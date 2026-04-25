@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-white-400 ${location.pathname === link.path ? 'text-blue-400' : (scrolled ? 'text-white' : 'text-slate-800')}`}
+              className={`text-sm font-medium transition-colors hover:text-white ${location.pathname === link.path ? 'text-white' : (scrolled ? 'text-white' : 'text-white')}`}
             >
               {link.name}
             </Link>
@@ -249,17 +249,17 @@ const Home = () => {
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
                 PT Yuvan Raja Alkesindo didirikan tahun 2020. Dimana saat itu Indonesia dan seluruh dunia sedang dilanda pandemi global yaitu covid 19. Perusahaan ini didirikan dengan tujuan membantu pemerintah untuk menghilangkan wabah virus covid 19.
               </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
+              <p className="text-lg text-white leading-relaxed">
                 Produk yang dijual saat itu adalah rapid antigen, masker dan barang habis pakai lainnya sebagai garda terdepan dalam penanganan kesehatan nasional.
               </p>
               <div className="mt-10 flex gap-12">
                 <div>
                   <p className="text-4xl font-bold text-white">2020</p>
-                  <p className="text-slate-500 font-medium">Tahun Berdiri</p>
+                  <p className="text-white font-medium">Tahun Berdiri</p>
                 </div>
                 <div>
                   <p className="text-4xl font-bold text-white">Garda</p>
-                  <p className="text-slate-500 font-medium">Terdepan Covid-19</p>
+                  <p className="text-white font-medium">Terdepan Covid-19</p>
                 </div>
               </div>
             </div>
