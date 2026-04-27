@@ -569,11 +569,11 @@ const Contact = () => {
      
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <span className="px-4 py-1.5 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
-              <p className="text-slate-600 text-lg leading-relaxed mb-10">
+              <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>
 
@@ -581,7 +581,7 @@ const Contact = () => {
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="flex gap-5 items-start relative z-10">
-                    <div className="w-15 h-15 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <MapPin size={24} />
                     </div>
                     <div>
