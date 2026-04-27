@@ -588,23 +588,23 @@ const Contact = () => {
               <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>              
-          </div>
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, ease: "easeOut" }}
-                className="rounded-3xl overflow-hidden shadow-2xl relative"
-            >
-              <img 
-                src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
-                alt="Professional Healthcare" 
-                className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
-              />
-              <div className="absolute inset-0 mix-blend-multiply"></div>
-            </motion.div>
-          </div>
-        </div>        
+            </div>
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+              <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, ease: "easeOut" }}
+                  className="rounded-3xl overflow-hidden shadow-2xl relative"
+              >
+                <img 
+                  src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
+                  alt="Professional Healthcare" 
+                  className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
+                />
+                <div className="absolute inset-0 mix-blend-multiply"></div>
+              </motion.div>
+            </div>
+          </div>        
           
           <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
