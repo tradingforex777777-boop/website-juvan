@@ -663,9 +663,8 @@ const Contact = () => {
                 </div>
               </a>
             </div>            
-          </div>          
-        </div>
-        <div className="max-w-7xl mx-auto items-center gap-16">
+          </div>
+          <div className="max-w-7xl mx-auto items-center gap-16">
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -680,6 +679,7 @@ const Contact = () => {
             <div className="absolute inset-0 mix-blend-multiply"></div>
           </motion.div>
             </div>
+        </div>        
      </section>     
       
 
