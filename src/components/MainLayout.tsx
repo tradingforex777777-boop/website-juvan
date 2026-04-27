@@ -231,7 +231,7 @@ const Home = () => {
               className="rounded-3xl overflow-hidden shadow-2xl relative"
           >
             <img 
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2070" 
+              src="https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png" 
               alt="Professional Healthcare" 
               className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
             />
@@ -290,7 +290,7 @@ const About = () => {
               <p className="text-white text-lg leading-relaxed mb-6">
                 Saat ini PT Yuvan Raja Alkesindo memberikan layanan perawatan alat – alat kesehatan baik pemeliharaan alat maupun servis perbaikan alat. Dimana perusahaan ini menggunakan standar WHO sebagai acuan dunia, sehingga hasil dan kualitas menjadi target utama.
               </p>
-              <p className="text-slate-600 text-lg leading-relaxed">
+              <p className="text-white text-lg leading-relaxed">
                 PT Yuvan Raja Alkesindo juga menjadi konsultan dalam pemilihan kebutuhan alat – alat kesehatan baik dalam bidang laboratorium maupun elektromedis lainnya. Sehingga customer dapat memilih barang – barang kesehatan sesuai dengan budget dan kebutuhan tanpa rasa khawatir.
               </p>
             </div>
@@ -301,7 +301,7 @@ const About = () => {
               className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
             >
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070" 
+                src="https://i.ibb.co.com/FSPrzF9/Resume-Guide.jpg" 
                 alt="Medical Services" 
                 className="w-full h-80 md:h-[450px] object-cover"
               />
