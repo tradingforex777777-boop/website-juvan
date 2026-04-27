@@ -598,7 +598,7 @@ const Contact = () => {
               <img 
                 src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
                 alt="Professional Healthcare" 
-                className="w-full md:h-[450px] object-cover"
+                className="w-full md:h-[500px] object-cover"
               />
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>
