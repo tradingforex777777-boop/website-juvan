@@ -231,7 +231,7 @@ const Home = () => {
               className="rounded-3xl overflow-hidden shadow-2xl relative"
           >            
             <img 
-              src="https://i.ibb.co.com/s9YhhZXH/medical-device.png" 
+              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
               alt="Professional Healthcare" 
               className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
             />
