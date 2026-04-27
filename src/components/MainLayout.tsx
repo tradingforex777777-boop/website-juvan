@@ -569,7 +569,7 @@ const Activity = () => {
       
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white grid grid-cols-1 md:grid-cols-2 gap-16">
