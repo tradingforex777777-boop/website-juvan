@@ -582,8 +582,14 @@ const Contact = () => {
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div>
-              <motion.div
+            <div>              
+              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
+              <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
+              <p className="text-white text-lg leading-relaxed mb-10">
+                Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
+              </p>              
+          </div>
+            <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
@@ -596,12 +602,6 @@ const Contact = () => {
               />
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>
-              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
-              <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
-              <p className="text-white text-lg leading-relaxed mb-10">
-                Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
-              </p>              
-          </div>                                 
         </div>        
           
           <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
