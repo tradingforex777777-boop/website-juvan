@@ -662,12 +662,8 @@ const Contact = () => {
                   <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                 </div>
               </a>
-            </div>                        
-          </div>          
-        </div>
-     </section>
-      
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            </div>
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -682,6 +678,10 @@ const Contact = () => {
             <div className="absolute inset-0 mix-blend-multiply"></div>
           </motion.div>
             </div>
+          </div>          
+        </div>
+     </section>     
+      
 
       {/* Map Embed */}
       <section className="px-6">
