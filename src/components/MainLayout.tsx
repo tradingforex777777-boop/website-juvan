@@ -244,6 +244,7 @@ const Home = () => {
               transition={{ duration: 1, ease: "easeOut" }}         
           >
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
+              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">TRACKS OF TIME</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
               <p className="text-lg text-white leading-relaxed mb-6">
                 PT Yuvan Raja Alkesindo didirikan tahun 2020. Dimana saat itu Indonesia dan seluruh dunia sedang dilanda pandemi global yaitu covid 19. Perusahaan ini didirikan dengan tujuan membantu pemerintah untuk menghilangkan wabah virus covid 19.
