@@ -603,8 +603,7 @@ const Contact = () => {
                 alt="Medical Services" 
                 className="w-full h-80 md:h-[450px] object-cover"
               />
-            </motion.div>
-          </div>
+            </motion.div>          
         </div>  
          
           <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
