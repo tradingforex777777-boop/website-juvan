@@ -502,7 +502,7 @@ const Activity = () => {
         <div className="max-w-7xl mx-auto">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white mb-16 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-8">Jejak Visual Profesionalisme Kami</h2>
-            <p className="text-slate-600 text-lg leading-relaxed">
+            <p className="text-white text-lg leading-relaxed">
               Selamat datang di Galeri Dokumentasi PT Yuvan Raja Alkesindo. Ruang ini merupakan arsip visual perjalanan kami dalam membangun inovasi dan kepercayaan. Di sini, Anda dapat melihat setiap pencapaian, kolaborasi strategis, dan komitmen kami dalam memberikan layanan terbaik bagi mitra dan pelanggan.
             </p>
           </div>
@@ -615,7 +615,7 @@ const Contact = () => {
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[11px]">yuvan.rajaalkesindo@gmail.com</p>
+                    <p className="relative text-white text-[11px]">yuvan.rajaalkesindo@gmail.com</p>
                     <a 
                       href="mailto:yuvan.rajaalkesindo@gmail.com"
                       target="_blank" 
@@ -633,7 +633,7 @@ const Contact = () => {
                       <Instagram size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
-                    <p className="text-white text-[11px]">@yuvan.alkesindo</p>
+                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                   </div>
                 </a>
 
@@ -644,7 +644,7 @@ const Contact = () => {
                       <Facebook size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
-                    <p className="text-white text-[11px]">Yuvan Raja Alkesindo</p>
+                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                   </div>
                 </a>
               </div>
