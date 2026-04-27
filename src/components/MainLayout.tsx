@@ -479,11 +479,13 @@ const Product = () => {
 
 const Activity = () => {
   const activities = [
-    "https://iili.io/BUYP0np.png", "https://iili.io/BUYsfhx.png", "https://iili.io/BUYLgSt.png", 
-    "https://iili.io/BUYZXja.png", "https://iili.io/BUYDBg2.png", "https://iili.io/BU10baI.png", 
-    "https://iili.io/BU1E9UB.png", "https://iili.io/BU1Eaf4.png", "https://iili.io/BU1EXWb.png"
+    "https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png", "https://i.ibb.co.com/FSPrzF9/Resume-Guide.jpg", "https://i.ibb.co.com/6RMGnyXh/activity2.png", 
+    "https://i.ibb.co.com/nsP6nKwm/activity3.png", "https://i.ibb.co.com/pvQW0hmG/activity4.png", "https://i.ibb.co.com/DfZxHcCm/activity5.png", 
+    "https://i.ibb.co.com/XxPLNm3n/activity6.png", "https://i.ibb.co.com/GfLCQLK5/activity7.png", "https://i.ibb.co.com/T9b2Gxj/activity8.png",
+    "https://i.ibb.co.com/4Zg0LLK7/activity9.png", "https://i.ibb.co.com/Nng1Gb57/activity10.png", "https://i.ibb.co.com/sv3jKhQy/Elek-jpg.jpg",
+    "https://i.ibb.co.com/4gKk7zdT/IMG-20230701-WA0009.jpg"
   ];
-
+  
   const [activeIndex, setActiveIndex] = useState(0);
 
   const next = () => setActiveIndex((prev) => (prev + 1) % activities.length);
