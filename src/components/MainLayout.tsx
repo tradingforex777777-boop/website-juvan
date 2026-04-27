@@ -229,9 +229,9 @@ const Home = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="rounded-3xl overflow-hidden shadow-2xl relative"
-          >
+          >            
             <img 
-              src="https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png" 
+              src="https://i.ibb.co.com/s9YhhZXH/medical-device.png" 
               alt="Professional Healthcare" 
               className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
             />
@@ -303,7 +303,7 @@ const About = () => {
               className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
             >
               <img 
-                src="https://i.ibb.co.com/FSPrzF9/Resume-Guide.jpg" 
+                src="https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png" 
                 alt="Medical Services" 
                 className="w-full h-80 md:h-[450px] object-cover"
               />
