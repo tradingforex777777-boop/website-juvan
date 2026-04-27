@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen ? 'py-4 bg-primary-dark shadow-lg' : 'py-6 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all ${scrolled || isOpen ? 'brightness-0 invert' :''}`} />
+          <img src={LOGO_URL} alt="PT Yuvan Raja Alkesindo" className={`h-10 md:h-12 w-auto transition-all`} />
           <span className="text-lg md:text-xl font-bold font-display tracking-tight transition-all text-white">
             PT YUVAN RAJA ALKESINDO
           </span>
@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-white ${location.pathname === link.path ? 'px-5 py-2 rounded-full bg-primary-dark text-white' : (scrolled ? 'text-white' : 'text-primary-dark')}`}
+              className={`text-sm font-medium transition-colors hover:text-white ${location.pathname === link.path ? 'px-5 py-2 rounded-full bg-primary-dark text-[#128C7E]' : (scrolled ? 'text-white' : 'text-primary-dark')}`}
             >
               {link.name}
             </Link>
@@ -169,7 +169,7 @@ const Home = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 1.5, ease: "easeInOut" }}
               alt="Medical equipment" 
-              className="w-full h-full object-cover brightness-[0.4]"
+              className="w-full h-full object-cover brightness-[2.4]"
             />
           </AnimatePresence>
           <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/30 to-black/70"></div>
