@@ -286,6 +286,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
+              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Dedication in detail</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
               <p className="text-white text-lg leading-relaxed mb-6">
                 Saat ini PT Yuvan Raja Alkesindo memberikan layanan perawatan alat – alat kesehatan baik pemeliharaan alat maupun servis perbaikan alat. Dimana perusahaan ini menggunakan standar WHO sebagai acuan dunia, sehingga hasil dan kualitas menjadi target utama.
@@ -510,6 +511,7 @@ const Activity = () => {
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white mb-16">
+            <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Activities & Innovation</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-8">Jejak Visual Profesionalisme Kami</h2>
             <p className="text-white text-lg leading-relaxed">
               Selamat datang di Galeri Dokumentasi PT Yuvan Raja Alkesindo. Ruang ini merupakan arsip visual perjalanan kami dalam membangun inovasi dan kepercayaan. Di sini, Anda dapat melihat setiap pencapaian, kolaborasi strategis, dan komitmen kami dalam memberikan layanan terbaik bagi mitra dan pelanggan.
