@@ -581,39 +581,19 @@ const Contact = () => {
      
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
-              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Dedication in detail</span>
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
-              <p className="text-white text-lg leading-relaxed mb-6">
-                Saat ini PT Yuvan Raja Alkesindo memberikan layanan perawatan alat – alat kesehatan baik pemeliharaan alat maupun servis perbaikan alat. Dimana perusahaan ini menggunakan standar WHO sebagai acuan dunia, sehingga hasil dan kualitas menjadi target utama.
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+              <span className="px-4 py-1.5 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
+              <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
+              <p className="text-slate-600 text-lg leading-relaxed mb-10">
+                Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>
-              <p className="text-white text-lg leading-relaxed">
-                PT Yuvan Raja Alkesindo juga menjadi konsultan dalam pemilihan kebutuhan alat – alat kesehatan baik dalam bidang laboratorium maupun elektromedis lainnya. Sehingga customer dapat memilih barang – barang kesehatan sesuai dengan budget dan kebutuhan tanpa rasa khawatir.
-              </p>
-            </div>
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, ease: "easeOut" }}
-              className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
-            >
-              <img 
-                src="https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png" 
-                alt="Medical Services" 
-                className="w-full h-80 md:h-[450px] object-cover"
-              />
-            </motion.div>          
-          </div>
-        </div>
-      </section>
-         
-          <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
+
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
+                <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="flex gap-5 items-start relative z-10">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-blue-400 group-hover:text-primary-dark transition-colors duration-300">
                       <MapPin size={24} />
                     </div>
                     <div>
@@ -625,65 +605,95 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-  
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
+
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-green-500 group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Phone size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
                     <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
-                    <a 
-                      href={CONTACT_INFO.whatsapp} 
-                      target="_blank" rel="noreferrer"
-                      className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
+                    <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-green-500 transition-all border border-white/5">
                       Chat
                     </a>
-                  </div>                 
+                  </div>
                 </div>
-  
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-400 group-hover:text-primary-dark transition-all transform group-hover:-rotate-12">
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[10px] mb-2">yuvan.rajaalkesindo @gmail.com</p>
-                    <a 
-                      href="mailto:yuvan.rajaalkesindo@gmail.com"
-                      target="_blank" rel="noreferrer"
-                      className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
-                      SEND                  
-                    </a>
-                  </div>                 
+                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">{CONTACT_INFO.email}</p>
+                    <span className="text-[11px] text-white font-bold uppercase tracking-widest px-2 py-0.5 bg-white/5 rounded">OFFICIAL</span>
+                  </div>
                 </div>
-                 
-                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
+
+                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-gradient-to-tr group-hover:from-orange-500 group-hover:via-pink-500 group-hover:to-purple-500 group-hover:text-white transition-all">
                       <Instagram size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
-                     <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
+                    <p className="text-white text-[11px]">@yuvan.alkesindo</p>
                   </div>
                 </a>
-  
-                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
+
+                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-all">
                       <Facebook size={24} />
-                  </div>
+                    </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
-                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
+                    <p className="text-white text-[11px]">Yuvan Raja Alkesindo</p>
                   </div>
                 </a>
               </div>
             </div>
+
+            <div className="bg-sky-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-200">
+               <h3 className="text-2xl font-bold mb-8">Kirim Pesan</h3>
+               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                   <div className="space-y-2">
+                     <label className="text-sm font-semibold text-slate-700">Nama Lengkap</label>
+                     <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
+                   </div>
+                   <div className="space-y-2">
+                     <label className="text-sm font-semibold text-slate-700">Nomor HP</label>
+                     <input type="text" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
+                   </div>
+                 </div>
+                 <div className="space-y-2">
+                   <label className="text-sm font-semibold text-slate-700">Email</label>
+                   <input type="email" className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
+                 </div>
+                 <div className="space-y-2">
+                   <label className="text-sm font-semibold text-slate-700">Subjek</label>
+                   <select className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
+                     <option>Konsultasi Alat</option>
+                     <option>Layanan Servis</option>
+                     <option>Kemitraan</option>
+                     <option>Lainnya</option>
+                   </select>
+                 </div>
+                 <div className="space-y-2">
+                   <label className="text-sm font-semibold text-slate-700">Pesan</label>
+                   <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
+                 </div>
+                 <button className="w-full py-4 bg-primary-dark text-white rounded-xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg active:scale-95">
+                   Kirim Pesan Sekarang
+                 </button>
+               </form>
+            </div>
           </div>
+        </div>
+      </section>
     
       {/* Map Embed */}
       <section className="px-6">
