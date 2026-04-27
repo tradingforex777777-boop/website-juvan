@@ -569,22 +569,7 @@ const Activity = () => {
       
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
-      {/* Banner Section */}
-      <section className="px-6 mb-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
-            <img 
-              src="https://images.unsplash.com/photo-1549227082-0ea18ce30397?auto=format&fit=crop&q=80&w=2070" 
-              alt="Medical Support Team" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-transparent flex items-center p-12">
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">      
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
