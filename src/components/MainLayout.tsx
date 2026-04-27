@@ -590,7 +590,7 @@ const Contact = () => {
               </p>              
              </div>
             
-              <div className="max-w-7xl mx-auto gap-16">
+              <div className="max-w-7xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -600,7 +600,7 @@ const Contact = () => {
                   <img 
                     src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
                     alt="Contact banner" 
-                    className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
+                    className="w-full h-auto object-cover"
                   />
                   <div className="absolute inset-0 mix-blend-multiply"></div>
                 </motion.div>
