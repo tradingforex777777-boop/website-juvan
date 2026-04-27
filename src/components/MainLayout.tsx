@@ -588,7 +588,23 @@ const Contact = () => {
               <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>
-            </div>            
+            </div>
+
+            <div className="max-w-7xl mx-auto items-center gap-16">
+          <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              className="rounded-3xl overflow-hidden shadow-2xl relative"
+          >            
+            <img 
+              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
+              alt="Professional Healthcare" 
+              className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
+            />
+            <div className="absolute inset-0 mix-blend-multiply"></div>
+          </motion.div>
+            </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
@@ -662,22 +678,7 @@ const Contact = () => {
                   <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                 </div>
               </a>
-            </div>
-            <div className="max-w-7xl mx-auto items-center gap-16">
-          <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, ease: "easeOut" }}
-              className="rounded-3xl overflow-hidden shadow-2xl relative"
-          >            
-            <img 
-              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
-              alt="Professional Healthcare" 
-              className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
-            />
-            <div className="absolute inset-0 mix-blend-multiply"></div>
-          </motion.div>
-            </div>
+            </div>            
           </div>          
         </div>        
      </section>     
