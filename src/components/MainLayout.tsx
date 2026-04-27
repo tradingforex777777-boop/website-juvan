@@ -424,7 +424,7 @@ const Product = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="group relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-md"
+                className="group relative h-auto md:h-80 rounded-2xl overflow-hidden shadow-md"
               >
                 <img src={p.url} alt={p.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
