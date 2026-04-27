@@ -182,7 +182,7 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <h1 className="text-5xl md:text-8xl font-bold text-white mb-8 leading-[0.9] font-slogan tracking-tighter">
-              Best Product is <br /> <span className="text-blue-400 drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]">Best Service</span>
+              Best Product is <br /> <span className="text-primary-light drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]">Best Service</span>
             </h1>
             <p className="text-lg md:text-xl text-white mb-10 max-w-2xl mx-auto font-light">
               Menghadirkan solusi kesehatan modern dengan integritas dan dedikasi tinggi untuk masa depan Indonesia yang lebih sehat.
