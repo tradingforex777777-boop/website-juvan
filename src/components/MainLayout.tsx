@@ -590,10 +590,10 @@ const Contact = () => {
           </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
+                <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="flex gap-5 items-start relative z-10">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-blue-400 group-hover:text-primary-dark transition-colors duration-300">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <MapPin size={24} />
                     </div>
                     <div>
@@ -605,52 +605,60 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+  
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-green-500 group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Phone size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
                     <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
-                    <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-green-500 transition-all border border-white/5">
+                    <a 
+                      href={CONTACT_INFO.whatsapp} 
+                      target="_blank" rel="noreferrer"
+                      className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
                       Chat
                     </a>
-                  </div>
+                  </div>                 
                 </div>
-
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+  
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
+                  <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-400 group-hover:text-primary-dark transition-all transform group-hover:-rotate-12">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">yuvan.rajaalkesindo @gmail.com</p>
-                    <span className="text-[11px] text-white font-bold uppercase tracking-widest px-2 py-0.5 bg-white/5 rounded">OFFICIAL</span>
-                  </div>
+                    <p className="text-white text-[10px] mb-2">yuvan.rajaalkesindo @gmail.com</p>
+                    <a 
+                      href="mailto:yuvan.rajaalkesindo@gmail.com"
+                      target="_blank" rel="noreferrer"
+                      className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
+                      SEND                  
+                    </a>
+                  </div>                 
                 </div>
-
-                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+                 
+                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-gradient-to-tr group-hover:from-orange-500 group-hover:via-pink-500 group-hover:to-purple-500 group-hover:text-white transition-all">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Instagram size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
-                    <p className="text-white text-[11px]">@yuvan.alkesindo</p>
+                     <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                   </div>
                 </a>
-
-                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+  
+                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <Facebook size={24} />
-                    </div>
+                  </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
-                    <p className="text-white text-[11px]">Yuvan Raja Alkesindo</p>
+                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
                   </div>
                 </a>
               </div>
