@@ -571,14 +571,22 @@ const Activity = () => {
       
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
-      {/* Header Section */}
-      <section className="px-6 mb-16 text-center">
+    <div className="pt-24 pb-24 bg-sky-50 min-h-screen">
+      {/* Banner Section */}
+      <section className="px-6 mb-16">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
+          <div className="rounded-3xl overflow-hidden h-64 md:h-[400px] mb-12 relative shadow-2xl">
+            <img 
+              src="https://images.unsplash.com/photo-1549227082-0ea18ce30397?auto=format&fit=crop&q=80&w=2070" 
+              alt="Medical Support Team" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-transparent flex items-center p-12">
+            </div>
+          </div>
         </div>
-      </section>      
-     
+      </section>
+
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -694,12 +702,12 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    
+
       {/* Map Embed */}
       <section className="px-6">
         <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden h-96 shadow-xl border-4 border-white">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.952922922483!2d107.04941467378386!3d-6.26992179371878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f0042cb75fb%3A0x90d6202163829b9a!2sPT%20Yuvan%20Raja%20Alkesindo!5e0!3m2!1sid!2sid!4v1777302716690!5m2!1sid!2sid" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.090858178144!2d107.0390176!3d-6.2621066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e3f4347781d%3A0xe962635905581177!2sJl.%20Masjid%20Al-Mujahidin%20No.13%2C%20Setiadarma%2C%20Kec.%20Tambun%20Sel.%2C%20Kabupaten%20Bekasi%2C%20Jawa%20Barat%2017158!5e0!3m2!1sid!2sid!4v1714470000000!5m2!1sid!2sid" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
@@ -709,6 +717,7 @@ const Contact = () => {
           ></iframe>
         </div>
       </section>
+    </div>
   );
 };
 
