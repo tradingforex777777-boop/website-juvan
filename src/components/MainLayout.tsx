@@ -347,7 +347,7 @@ const About = () => {
                 <div className="flex gap-4">
                   <p className="text-white font-medium text-lg leading-snug">- Memberikan pelayanan purna jual yang terbaik kepada customer</p>
                 </div>
-                <div className="flex gap-4 md:col-span-3">
+                <div className="flex gap-4 md:col-span-2">
                   <p className="text-white font-medium text-lg leading-snug">- Menjadi sahabat untuk customer dengan memberikan konsultasi dalam pemenuhan kebutuhan produk Kesehatan</p>
                 </div>
               </div>
