@@ -684,7 +684,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-      </section>
     
       {/* Map Embed */}
       <section className="px-6">
