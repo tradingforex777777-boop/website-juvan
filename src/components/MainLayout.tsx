@@ -188,10 +188,10 @@ const Home = () => {
               Menghadirkan solusi kesehatan modern dengan integritas dan dedikasi tinggi untuk masa depan Indonesia yang lebih sehat.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="px-6 py-5 bg-primary-dark text-white rounded-full font-semibold hover:bg-white hover:text-primary-dark transition-all">
+              <Link to="/hubungi-kami" className="px-6 py-5 bg-primary-dark text-white rounded-full font-semibold hover:bg-white hover:text-primary-dark transition-all">
                 Hubungi Kami
               </Link>
-              <a href="https://www.google.com/url?q=https%3A%2F%2Fkatalog.inaproc.id%2Fyuvan-raja-alkesindo&sa=D&sntz=1&usg=AOvVaw3lU-2ZtCCkS0NDFwLYl4QQ" target="_blank" rel="noreferrer" className="px-6 py-5 bg-primary-dark text-white rounded-full font-semibold hover:bg-white hover:text-primary-dark transition-all">
+              <a href="https://www.google.com/url?q=https%3A%2F%2Fkatalog.inaproc.id%2Fyuvan-raja-alkesindo&sa=D&sntz=1&usg=AOvVaw3lU-2ZtCCkS0NDFwLYl4QQ" target="_blank" rel="noreferrer" className="px-6 py-5 bg-white text-primary-dark rounded-full font-semibold hover:bg-primary-dark hover:text-white transition-all">
                 BUY
               </a>
             </div>
@@ -219,7 +219,7 @@ const Home = () => {
       </section>
 
       {/* History Section */}
-      <section className="py-24 px-6 bg-sky-50">
+      <section className="py-24 px-6 bg-primary-light">
         <div className="max-w-7xl mx-auto mb-16 text-center">
           <h2 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">SEJARAH</h2>
         </div>
