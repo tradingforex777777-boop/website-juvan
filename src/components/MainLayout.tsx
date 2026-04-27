@@ -287,7 +287,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
-              <p className="text-slate-600 text-lg leading-relaxed mb-6">
+              <p className="text-white text-lg leading-relaxed mb-6">
                 Saat ini PT Yuvan Raja Alkesindo memberikan layanan perawatan alat – alat kesehatan baik pemeliharaan alat maupun servis perbaikan alat. Dimana perusahaan ini menggunakan standar WHO sebagai acuan dunia, sehingga hasil dan kualitas menjadi target utama.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed">
