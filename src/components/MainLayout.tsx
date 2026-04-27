@@ -508,7 +508,7 @@ const Activity = () => {
           </div>
 
           <div className="max-w-5xl mx-auto">
-            <div className="relative group rounded-[2rem] overflow-hidden shadow-2xl bg-slate-100">
+            <div className="relative group rounded-[2rem] overflow-hidden shadow-2xl bg-primary-dark">
               <AnimatePresence mode="wait">
                 <motion.img 
                   key={activeIndex}
@@ -517,7 +517,7 @@ const Activity = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.6 }}
-                  className="w-full h-[400px] md:h-[600px] object-contain bg-slate-900"
+                  className="w-full h-[400px] md:h-[600px] object-contain bg-primary-dark"
                 />
               </AnimatePresence>
               
@@ -615,7 +615,7 @@ const Contact = () => {
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="relative text-white text-[11px]">yuvan.rajaalkesindo@gmail.com</p>
+                    <p className="relative text-white text-[11px] mb-2">{CONTACT_INFO.email}</p>
                     <a 
                       href="mailto:yuvan.rajaalkesindo@gmail.com"
                       target="_blank" 
