@@ -590,7 +590,7 @@ const Contact = () => {
               </p>              
              </div>
             
-              <div className="max-w-7xl mx-auto gap-16 items-center">
+              <div className="max-w-7xl mx-auto gap-16">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
