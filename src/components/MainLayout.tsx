@@ -596,7 +596,7 @@ const Contact = () => {
                 className="rounded-3xl overflow-hidden shadow-2xl relative"
             >
               <img 
-                src="https://i.ibb.co.com/gLYF7mBM/51d4043c5e-1.jpg" 
+                src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
                 alt="Professional Healthcare" 
                 className="w-full h-80 md:h-[450px] object-cover"
               />
