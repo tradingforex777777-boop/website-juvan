@@ -593,12 +593,12 @@ const Contact = () => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
-                className="w-full h-80 md:h-[450px] rounded-3xl overflow-hidden shadow-2xl relative"
+                className="rounded-3xl overflow-hidden shadow-2xl relative"
             >
               <img 
                 src="https://i.ibb.co.com/chN6nZ8F/contact-banner.png" 
                 alt="Professional Healthcare" 
-                className="w-full h-80 md:h-[450px] object-cover"
+                className="w-full md:h-[450px] object-cover"
               />
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>
