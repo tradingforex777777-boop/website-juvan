@@ -653,21 +653,21 @@ const Contact = () => {
             <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem]">
                <h3 className="text-2xl text-white font-bold mb-8">Kirim Pesan</h3>
                <form class="whatsappForm" >
-                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-                   <div className="space-y-2">
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                   <div className="space-y-5">
                      <label className="text-sm font-semibold text-white">Nama Lengkap</label>
                      <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
                    </div>
-                   <div className="space-y-2">
+                   <div className="space-y-5">
                      <label className="text-sm font-semibold text-white">Nomor HP</label>
                      <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="0812..." />
                    </div>
                  </div>
-                 <div className="space-y-2">
+                 <div className="space-y-5">
                    <label className="text-sm font-semibold text-white">Email</label>
                    <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="email@contoh.com" />
                  </div>
-                 <div className="space-y-2">
+                 <div className="space-y-5">
                    <label className="text-sm font-semibold text-white">Subjek</label>
                    <select className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors">
                      <option>Konsultasi Alat</option>
@@ -676,7 +676,7 @@ const Contact = () => {
                      <option>Lainnya</option>
                    </select>
                  </div>
-                 <div className="space-y-2">
+                 <div className="space-y-5">
                    <label className="text-sm font-semibold text-white">Pesan</label>
                    <textarea className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors h-32 resize-none" placeholder="Tuliskan pesan Anda..."></textarea>
                  </div>
