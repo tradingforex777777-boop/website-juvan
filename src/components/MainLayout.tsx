@@ -605,8 +605,7 @@ const Contact = () => {
               />
             </motion.div>
           </div>
-        </div>
-      </section>      
+        </div>  
          
           <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -684,6 +683,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+      </section>
     
       {/* Map Embed */}
       <section className="px-6">
