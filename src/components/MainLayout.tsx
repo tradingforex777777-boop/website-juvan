@@ -576,7 +576,7 @@ const Contact = () => {
             <div>
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block"">Response Timely</span>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
-              <p className="text-slate-600 text-lg leading-relaxed mb-10">
+              <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>
 
