@@ -428,7 +428,7 @@ const Product = () => {
               >
                 <img src={p.url} alt={p.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <p className="text-white font-bold text-lg">{p.name}</p>
+                  <p className="text-white font-bold size={20}">{p.name}</p>
                 </div>
               </motion.div>
             ))}
