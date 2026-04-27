@@ -581,29 +581,31 @@ const Contact = () => {
      
       <section className="px-6 mb-24">
         <div className="max-w-7xl mx-auto">
-          <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div>              
-              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
-              <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
-              <p className="text-white text-lg leading-relaxed mb-10">
-                Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
-              </p>            
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-              <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1, ease: "easeOut" }}
-                  className="rounded-3xl overflow-hidden shadow-2xl relative"
-              >            
-                <img 
-                  src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
-                  alt="Professional Healthcare" 
-                  className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
-                />
-                <div className="absolute inset-0 mix-blend-multiply"></div>
-              </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
+              <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Dedication in detail</span>
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
+              <p className="text-white text-lg leading-relaxed mb-6">
+                Saat ini PT Yuvan Raja Alkesindo memberikan layanan perawatan alat – alat kesehatan baik pemeliharaan alat maupun servis perbaikan alat. Dimana perusahaan ini menggunakan standar WHO sebagai acuan dunia, sehingga hasil dan kualitas menjadi target utama.
+              </p>
+              <p className="text-white text-lg leading-relaxed">
+                PT Yuvan Raja Alkesindo juga menjadi konsultan dalam pemilihan kebutuhan alat – alat kesehatan baik dalam bidang laboratorium maupun elektromedis lainnya. Sehingga customer dapat memilih barang – barang kesehatan sesuai dengan budget dan kebutuhan tanpa rasa khawatir.
+              </p>
             </div>
-          </div>        
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
+            >
+              <img 
+                src="https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png" 
+                alt="Medical Services" 
+                className="w-full h-80 md:h-[450px] object-cover"
+              />
+            </motion.div>
+          </div>
+        </div>    
           
           <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-16">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
