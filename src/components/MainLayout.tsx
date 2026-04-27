@@ -587,8 +587,7 @@ const Contact = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
               <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
-              </p>
-            </div>
+              </p>            
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
