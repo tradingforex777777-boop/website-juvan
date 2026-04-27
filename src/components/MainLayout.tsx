@@ -619,7 +619,7 @@ const Contact = () => {
                     <Mail size={24} />
                   </div>
                   <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                  <p className="text-white text-[11px] mb-2">"yuvan.rajaalkesindo" "@gmail.com"</p>
+                  <p className="text-white text-[10px] mb-2">yuvan.rajaalkesindo @gmail.com</p>
                   <a 
                     href="mailto:yuvan.rajaalkesindo@gmail.com"
                     target="_blank" rel="noreferrer"
