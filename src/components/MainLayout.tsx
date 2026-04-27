@@ -575,80 +575,80 @@ const Contact = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
               <p className="text-white text-lg leading-relaxed mb-10">
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
-              </p>       
+              </p>
+            </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
-                  <div className="flex gap-5 items-start relative z-10">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
-                      <MapPin size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-white mb-1">Alamat Kantor</h4>
-                      <p className="text-white text-sm leading-relaxed">{CONTACT_INFO.address}</p>
-                      <a href={CONTACT_INFO.mapsLink} target="_blank" rel="noreferrer" className="text-white font-bold text-xs mt-3 inline-flex items-center gap-1 hover:gap-2 transition-all">
-                        LIHAT DI GOOGLE MAPS <ChevronRight size={14} />
-                      </a>
-                    </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative">
+                <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+                <div className="flex gap-5 items-start relative z-10">
+                  <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <MapPin size={24} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-white mb-1">Alamat Kantor</h4>
+                    <p className="text-white text-sm leading-relaxed">{CONTACT_INFO.address}</p>
+                    <a href={CONTACT_INFO.mapsLink} target="_blank" rel="noreferrer" className="text-white font-bold text-xs mt-3 inline-flex items-center gap-1 hover:gap-2 transition-all">
+                      LIHAT DI GOOGLE MAPS <ChevronRight size={14} />
+                    </a>
                   </div>
                 </div>
+              </div>
 
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">                  
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
-                      <Phone size={24} />
-                    </div>
-                    <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
-                    <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
-                    <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
-                      Chat
-                    </a>
-                  </div>                 
-                </div>
+              <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">                  
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <Phone size={24} />
+                  </div>
+                  <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
+                  <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
+                  <a href={CONTACT_INFO.whatsapp} target="_blank" rel="noreferrer" className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
+                    Chat
+                  </a>
+                </div>                 
+              </div>
 
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
-                      <Mail size={24} />
-                    </div>
-                    <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[11px] mb-2">{CONTACT_INFO.email}</p>
-                    <a 
+              <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <Mail size={24} />
+                  </div>
+                  <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
+                  <p className="text-white text-[11px] mb-2">{CONTACT_INFO.email}</p>
+                  <a 
                       href="mailto:yuvan.rajaalkesindo@gmail.com"
                       target="_blank" 
                       rel="noreferrer" 
                       className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">
                       SEND
-                    </a>
-                  </div>
+                  </a>
                 </div>
-               
-                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
-                  <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
-                      <Instagram size={24} />
-                    </div>
-                    <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
-                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
-                  </div>
-                </a>
-
-                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
-                      <Facebook size={24} />
-                    </div>
-                    <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
-                    <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
-                  </div>
-                </a>
               </div>
-            </div>            
+               
+              <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+                <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <Instagram size={24} />
+                  </div>
+                  <h4 className="font-bold text-white mb-1 text-sm">Instagram</h4>
+                   <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
+                </div>
+              </a>
+
+              <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
+                    <Facebook size={24} />
+                </div>
+                  <h4 className="font-bold text-white mb-1 text-sm">Facebook</h4>
+                  <p className="bg-white/10 text-white px-3 py-1 rounded-md font-bold text-[11px] uppercase tracking-wider hover:bg-[#25D366] transition-all border border-white/5">Visit</p>
+                </div>
+              </a>
+            </div>                        
           </div>          
         </div>
      </section>      
