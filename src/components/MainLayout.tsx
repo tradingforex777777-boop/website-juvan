@@ -612,7 +612,7 @@ const Contact = () => {
                 </div>                 
               </div>
 
-              <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
+              <div className="bg-primary-dark p-4 rounded-4xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-40">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="relative z-10 flex flex-col items-center">
                   <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
