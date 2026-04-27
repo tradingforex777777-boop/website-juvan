@@ -119,7 +119,7 @@ const Footer = () => {
         {/* Navigation Row Moved Down */}
         <div className="flex flex-wrap justify-center gap-x-10 gap-y-4 mb-10">
           {NAV_LINKS.map((link) => (
-            <Link key={link.path} to={link.path} className="text-slate-400 hover:text-white transition-colors font-medium uppercase tracking-wider text-xs">
+            <Link key={link.path} to={link.path} className="text-white hover:text-primary-light transition-colors font-medium uppercase tracking-wider text-xs">
               {link.name}
             </Link>
           ))}
