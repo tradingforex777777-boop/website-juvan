@@ -442,7 +442,7 @@ const Product = () => {
            {/* Keamanan & Legalitas */}
            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">
              <div className="mb-8">
-                 <img src="https://i.ibb.co.com/wN7C74kH/Dokumen-Legalitas.jpg" alt="Legalitas Logo" className="h-auto w-full mb-4 brightness-0 invert" />
+                 <img src="https://i.ibb.co.com/wN7C74kH/Dokumen-Legalitas.jpg" alt="Legalitas Logo" className="h-auto w-full" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Legalitas Resmi</span>
               </div>
              <h3 className="text-2xl font-bold mb-6 text-white">Keamanan & Legalitas</h3>
@@ -453,7 +453,7 @@ const Product = () => {
             {/* Inaproc */}
             <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">
               <div className="mb-8">
-                 <img src="https://i.ibb.co.com/3YGL8FMG/inaproc.png" alt="Inaproc Logo" className="h-auto w-full mb-4 brightness-0 invert" />
+                 <img src="https://i.ibb.co.com/3YGL8FMG/inaproc.png" alt="Inaproc Logo" className="h-auto w-full" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
               </div>
               <h3 className="text-2xl font-bold mb-6 text-white">Tersedia di E-Katalog Inaproc</h3>
