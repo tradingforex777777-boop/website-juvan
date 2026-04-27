@@ -618,7 +618,7 @@ const Contact = () => {
                       <Mail size={24} />
                     </div>
                     <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">{CONTACT_INFO.email}</p>
+                    <p className="text-white text-[11px] mb-2 truncate w-full px-1">yuvan.rajaalkesindo @gmail.com</p>
                     <span className="text-[11px] text-white font-bold uppercase tracking-widest px-2 py-0.5 bg-white/5 rounded">OFFICIAL</span>
                   </div>
                 </div>
