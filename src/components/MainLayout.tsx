@@ -297,8 +297,8 @@ const About = () => {
               </p>
             </div>
             <motion.div 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="order-1 md:order-2 rounded-3xl overflow-hidden shadow-xl"
             >
@@ -596,9 +596,9 @@ const Contact = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="rounded-3xl overflow-hidden shadow-2xl relative"
-          >            
+          >
             <img 
-              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
+              src="https://i.ibb.co.com/gLYF7mBM/51d4043c5e-1.jpg" 
               alt="Professional Healthcare" 
               className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
             />
