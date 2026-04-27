@@ -479,12 +479,13 @@ const Product = () => {
 
 const Activity = () => {
   const activities = [
-    "https://i.ibb.co.com/tPFZqC2X/unnamed-25-1024x574.png", "https://i.ibb.co.com/FSPrzF9/Resume-Guide.jpg", "https://i.ibb.co.com/6RMGnyXh/activity2.png", 
+    "https://i.ibb.co.com/Fkm1WWqD/activity1.png", "https://i.ibb.co.com/FSPrzF9/Resume-Guide.jpg", "https://i.ibb.co.com/6RMGnyXh/activity2.png", 
     "https://i.ibb.co.com/nsP6nKwm/activity3.png", "https://i.ibb.co.com/pvQW0hmG/activity4.png", "https://i.ibb.co.com/DfZxHcCm/activity5.png", 
     "https://i.ibb.co.com/XxPLNm3n/activity6.png", "https://i.ibb.co.com/GfLCQLK5/activity7.png", "https://i.ibb.co.com/T9b2Gxj/activity8.png",
     "https://i.ibb.co.com/4Zg0LLK7/activity9.png", "https://i.ibb.co.com/Nng1Gb57/activity10.png", "https://i.ibb.co.com/sv3jKhQy/Elek-jpg.jpg",
     "https://i.ibb.co.com/4gKk7zdT/IMG-20230701-WA0009.jpg"
   ];
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/Fkm1WWqD/activity1.png" alt="activity1" border="0" /></a>
   
   const [activeIndex, setActiveIndex] = useState(0);
 
