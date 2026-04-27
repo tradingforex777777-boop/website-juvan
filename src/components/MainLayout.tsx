@@ -685,8 +685,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      {/* Map Embed */}
+     
       <section className="px-6">
         <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden h-96 shadow-xl border-4 border-white">
           <iframe 
