@@ -602,7 +602,7 @@ const Contact = () => {
                     <Phone size={24} />
                   </div>
                   <h4 className="font-bold text-white mb-1 text-sm">WhatsApp</h4>
-                  <p className="text-white text-[9px] mb-2">{CONTACT_INFO.phone}</p>
+                  <p className="text-white text-[11px] mb-2">{CONTACT_INFO.phone}</p>
                   <a 
                     href={CONTACT_INFO.whatsapp} 
                     target="_blank" rel="noreferrer"
@@ -619,7 +619,8 @@ const Contact = () => {
                     <Mail size={24} />
                   </div>
                   <h4 className="font-bold text-white mb-1 text-sm">Email</h4>
-                  <p className="text-white text-[11px] mb-2">{CONTACT_INFO.email}</p>
+                  <p className="text-white text-[11px] mb-2">yuvan.rajaalkesindo</p>
+                  <p className="text-white text-[11px] mb-2">@gmail.com</p>
                   <a 
                       href="mailto:yuvan.rajaalkesindo@gmail.com"
                       target="_blank" 
