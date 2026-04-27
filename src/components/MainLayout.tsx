@@ -653,7 +653,7 @@ const Contact = () => {
             <div className="bg-primary-dark p-8 md:p-12 rounded-[2.5rem]">
                <h3 className="text-2xl text-white font-bold mb-8">Kirim Pesan</h3>
                <form class="whatsappForm" >
-                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
                    <div className="space-y-2">
                      <label className="text-sm font-semibold text-white">Nama Lengkap</label>
                      <input className="w-full p-4 bg-white border border-slate-200 rounded-xl outline-none focus:border-blue-500 transition-colors" placeholder="Masukkan nama..." />
