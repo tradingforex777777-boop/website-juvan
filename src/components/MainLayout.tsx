@@ -577,7 +577,8 @@ const Contact = () => {
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
         </div>
       </section>
-            
+      
+       <div className="px-6 space-y-12 mb-24">     
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
             <div>
@@ -588,6 +589,8 @@ const Contact = () => {
               </p>
             </div>
           </div>
+        </div>
+         
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -603,7 +606,7 @@ const Contact = () => {
             </motion.div>         
         </div>
       
-          <div className="px-6 space-y-12 mb-24">      
+                
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
@@ -677,7 +680,7 @@ const Contact = () => {
                 </a>               
               </div>
             </div>
-          </div>
+          
           
     
       <section className="px-6">
