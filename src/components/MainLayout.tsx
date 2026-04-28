@@ -588,6 +588,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
+          
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">          
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
@@ -602,6 +603,7 @@ const Contact = () => {
             />
             <div className="absolute inset-0 mix-blend-multiply"></div>
           </motion.div>
+          </div>
           
             <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
