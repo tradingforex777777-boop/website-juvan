@@ -578,7 +578,7 @@ const Contact = () => {
         </div>
       </section>
       
-       <div className="px-6 space-y-12 mb-24">     
+           
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
             <div>
@@ -588,8 +588,7 @@ const Contact = () => {
                 Kami siap membantu kesuksesan bisnis Anda. Jika Anda memiliki pertanyaan mengenai layanan kami, membutuhkan konsultasi strategis, atau ingin menjalin kemitraan, tim profesional kami siap memberikan solusi terbaik. Hubungi kami melalui saluran di bawah ini, dan kami akan merespons permintaan Anda dalam waktu maksimal 24 jam kerja.
               </p>
             </div>
-          </div>
-        </div>
+          </div>       
          
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -606,7 +605,7 @@ const Contact = () => {
             </motion.div>         
         </div>
       
-                
+          <div className="px-6 space-y-12 mb-24">                
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
@@ -680,6 +679,7 @@ const Contact = () => {
                 </a>               
               </div>
             </div>
+          </div>  
           
           
     
