@@ -602,7 +602,7 @@ const Contact = () => {
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>         
         </div>
-      
+            <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">  
                 <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -621,6 +621,7 @@ const Contact = () => {
                   </div>                 
                 </div>
               </div>
+            </div>
   
                 <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -661,7 +662,7 @@ const Contact = () => {
                   </div>
                 </a>
           
-              <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">              
+                            
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="flex gap-5 items-start relative z-10">
@@ -677,7 +678,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>             
-              </div>
+              
           
     
       <section className="px-6">
