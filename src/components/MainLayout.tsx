@@ -576,6 +576,7 @@ const Contact = () => {
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
         </div>
       </section>
+      
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">          
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
@@ -603,8 +604,8 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          
-          
+        </div>
+      </section>         
           
             <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -681,8 +682,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-      </section>
+          
     
       <section className="px-6">
         <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden h-96 shadow-xl border-4 border-white">
