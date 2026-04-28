@@ -156,7 +156,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="pt-0 pb-24 bg-primary-light min-h-screen">
+    <div className="pt-0 pb-24 bg-primary-light">
       {/* Hero Section */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
