@@ -392,7 +392,7 @@ const Product = () => {
             <div className="max-w-3xl">
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Service Excellence</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">Jual/Beli Alat 100% Original</h2>
-              <p className="text-white/80 text-lg leading-relaxed mb-8">
+              <p className="text-white text-lg leading-relaxed mb-8">
                 Kami menyediakan Jual Beli bermacam alat kesehatan (Baru/Bekas) standar medis dengan kualitas terbaik dan harga kompetitif. Mulai dari kebutuhan bidang laboratorium maupun elektromedis lainnya, kami memberikan kepuasan customer dan produk original untuk pelayanan prioritas kami.
               </p>
               <div className="grid grid-cols-2 gap-4">
@@ -447,7 +447,7 @@ const Product = () => {
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Legalitas Resmi</span>
               </div>
              <h3 className="text-2xl font-bold mb-6 text-white">Keamanan & Legalitas</h3>
-             <p className="text-white/80 leading-relaxed">
+             <p className="text-white leading-relaxed">
                Di PT Yuvan Raja Alkesindo kualitas dan keamanan produk adalah prioritas utama kami. Kami memahami bahwa kepercayaan customer berawal dari transparansi dan kepatuhan terhadap regulasi yang berlaku. Oleh karena itu, seluruh lini produk kami telah melalui serangkaian pengujian dan memiliki Izin Edar Resmi dari otoritas berwenang.
              </p>
            </div>
@@ -459,7 +459,7 @@ const Product = () => {
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
               </div>
               <h3 className="text-2xl font-bold mb-6 text-white">Tersedia di E-Katalog Inaproc</h3>
-              <p className="text-white/80 leading-relaxed mb-10 grow">
+              <p className="text-white leading-relaxed mb-10 grow">
                 Temukan berbagai kebutuhan alat laboratorium maupun elektromedis lainnya dari PT Yuvan Raja Alkesindo di E-Katalog Inaproc. Kami menyediakan produk unggulan dengan harga transparan, proses pengadaan yang mudah, dan jaminan keaslian barang.
               </p>
              <a 
