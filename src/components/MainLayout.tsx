@@ -589,6 +589,20 @@ const Contact = () => {
             </div>
           </div>
           
+          <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              className="rounded-3xl overflow-hidden shadow-2xl relative"
+          >            
+            <img 
+              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
+              alt="Professional Healthcare" 
+              className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
+            />
+            <div className="absolute inset-0 mix-blend-multiply"></div>
+          </motion.div>
+          
             <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
