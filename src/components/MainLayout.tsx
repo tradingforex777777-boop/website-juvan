@@ -603,9 +603,9 @@ const Contact = () => {
             </motion.div>         
         </div>
       
-            <div className="max-w-6xl mx-8 px-2 mb-24 p-8 md:p-8">
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-6">  
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden w-50">                  
+            <div className="max-w-6xl mx-auto">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">  
+                <div className="col-span-2 md:col-span-4 bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
