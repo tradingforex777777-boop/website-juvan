@@ -570,7 +570,7 @@ const Activity = () => {
       
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
+    <div className="py-24 px-6 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
@@ -603,7 +603,7 @@ const Contact = () => {
               />
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>         
-        </div>
+          </div>
       
           <div className="px-6 space-y-12 mb-24">                
             <div className="max-w-6xl mx-auto">
