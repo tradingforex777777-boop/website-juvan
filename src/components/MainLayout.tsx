@@ -312,7 +312,7 @@ const About = () => {
       </section>
 
       {/* Vision & Mission */}
-      <section className="py-24 px-6 relative overflow-hidden">
+      <section className="px-6 relative overflow-hidden">
         {/* Background blobs for visual interest */}
         
         <div className="max-w-7xl mx-auto relative z-10">
