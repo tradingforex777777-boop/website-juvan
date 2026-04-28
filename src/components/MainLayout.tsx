@@ -666,11 +666,11 @@ const Contact = () => {
             </div>
           </div>
       </section>
-     
+    
       <section className="px-6">
         <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden h-96 shadow-xl border-4 border-white">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.090858178144!2d107.0390176!3d-6.2621066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e3f4347781d%3A0xe962635905581177!2sJl.%20Masjid%20Al-Mujahidin%20No.13%2C%20Setiadarma%2C%20Kec.%20Tambun%20Sel.%2C%20Kabupaten%20Bekasi%2C%20Jawa%20Barat%2017158!5e0!3m2!1sid!2sid!4v1714470000000!5m2!1sid!2sid" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.952922874714!2d107.0519896!3d-6.2699218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f0042cb75fb%3A0x90d6202163829b9a!2sPT%20Yuvan%20Raja%20Alkesindo!5e0!3m2!1sid!2sid!4v1777334676462!5m2!1sid!2sid" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
