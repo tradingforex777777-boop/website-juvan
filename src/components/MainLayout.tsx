@@ -223,6 +223,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto mb-16 text-center">
           <h2 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">SEJARAH</h2>
         </div>
+        
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
@@ -577,24 +578,21 @@ const Contact = () => {
         </div>
       </section>
       
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">          
-          <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, ease: "easeOut" }}
-              className="rounded-3xl overflow-hidden shadow-2xl relative"
-          >            
-            <img 
-              src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
-              alt="Professional Healthcare" 
-              className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
-            />
-            <div className="absolute inset-0 mix-blend-multiply"></div>
-          </motion.div>
-          </div>
-      
-      <section className="px-6 mb-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">          
+            <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                className="rounded-3xl overflow-hidden shadow-2xl relative"
+            >            
+              <img 
+                src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
+                alt="Professional Healthcare" 
+                className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
+              />
+              <div className="absolute inset-0 mix-blend-multiply"></div>
+            </motion.div>     
+        
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
             <div>
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
@@ -605,7 +603,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>         
+                
+               
           
             <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
