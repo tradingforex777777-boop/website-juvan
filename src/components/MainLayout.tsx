@@ -595,13 +595,13 @@ const Contact = () => {
                 className="rounded-3xl overflow-hidden shadow-2xl relative"
             >            
               <img 
-                src="https://i.ibb.co.com/LD6pzR0t/1601575881448.jpg" 
+                src="https://i.ibb.co.com/7NKtSS6M/medical-device.png" 
                 alt="Professional Healthcare" 
                 className="w-full aspect-square md:aspect-auto h-[500px] object-cover"
               />
               <div className="absolute inset-0 mix-blend-multiply"></div>
             </motion.div>         
-        </div>              
+        </div> 
           
             <div className="max-w-7xl mx-auto px-6 mb-24 p-8 md:p-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
