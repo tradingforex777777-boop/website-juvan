@@ -603,7 +603,7 @@ const Contact = () => {
             </motion.div>         
         </div>
       
-            <div className="max-w-4xl mx-auto px-2 mb-24 p-8 md:p-1.6">
+            <div className="max-w-4xl mx-auto px-2 mb-24 p-8 md:p-16">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6">  
                 <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden w-50">                  
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
