@@ -570,7 +570,7 @@ const Activity = () => {
       
 const Contact = () => {
   return (
-    <div className="pt-24 pb-24 bg-primary-light min-h-screen">
+    <div className="pt-24 pb-24 bg bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
         <div className="max-w-7xl mx-auto">
