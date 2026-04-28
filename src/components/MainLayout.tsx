@@ -605,7 +605,7 @@ const Contact = () => {
             </motion.div>         
           </div>
       
-          <div className="py-6 space-y-12 mb-24">                
+          <div className="px-6 space-y-12 mb-24">                
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
