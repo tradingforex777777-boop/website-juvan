@@ -319,9 +319,9 @@ const About = () => {
       <section className="py-0 px-6 relative overflow-hidden">
         {/* Background blobs for visual interest */}
         
-        <div className="max-w-7xl mx-auto relative z-10 group overflow-hidden relative">
-          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-stretch">
+        <div className="max-w-7xl mx-auto relative z-10">          
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-stretch group overflow-hidden relative">
+            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
             {/* Visi */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -333,7 +333,7 @@ const About = () => {
               <p className="text-xl leading-relaxed text-white font-medium italic">
                 "Menjadi perusahaan Kesehatan No 1 di Indonesia Membantu pemerintah dalam progam menciptakan masyarakat yang sehat dan sejahtera"
               </p>
-            </motion.div>
+            </motion.div>            
 
             {/* Misi */}
             <motion.div 
@@ -341,8 +341,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="lg:col-span-3 bg-primary-dark p-12 rounded-[2.5rem] text-white shadow-2xl flex flex-col justify-center border border-white/10 group overflow-hidden relative"
-            >
-              <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+            >              
               <div className="mb-10">
                 <h3 className="text-3xl font-bold text-white uppercase">Misi Perusahaan</h3>
               </div>
@@ -447,14 +446,14 @@ const Product = () => {
       
       {/* Legal & Inaproc */}
       <section className="px-6 space-y-12 mb-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">          
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 group overflow-hidden relative">
+        <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
            {/* Keamanan & Legalitas */}
-           <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white group overflow-hidden relative">             
+           <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">             
              <div className="mb-8">
                  <img src="https://i.ibb.co.com/wN7C74kH/Dokumen-Legalitas.jpg" alt="Legalitas Logo" className="h-auto w-full" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Legalitas Resmi</span>
-              </div>
-               <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+              </div>               
              <h3 className="text-2xl font-bold mb-6 text-white">Keamanan & Legalitas</h3>
              <p className="text-white leading-relaxed">
                Di PT Yuvan Raja Alkesindo kualitas dan keamanan produk adalah prioritas utama kami. Kami memahami bahwa kepercayaan customer berawal dari transparansi dan kepatuhan terhadap regulasi yang berlaku. Oleh karena itu, seluruh lini produk kami telah melalui serangkaian pengujian dan memiliki Izin Edar Resmi dari otoritas berwenang.
@@ -462,12 +461,12 @@ const Product = () => {
            </div>
           
             {/* Inaproc */}
-            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white group overflow-hidden relative">              
+            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white group overflow-hidden relative">
+            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
               <div className="mb-8">
                  <img src="https://i.ibb.co.com/YT8fs7Dp/inaproc.png" alt="Inaproc Logo" className="h-auto w-full" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
-              </div>
-                <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+              </div>                
               <h3 className="text-2xl font-bold mb-6 text-white">Tersedia di E-Katalog Inaproc</h3>
               <p className="text-white leading-relaxed mb-10 grow">
                 Temukan berbagai kebutuhan alat laboratorium maupun elektromedis lainnya dari PT Yuvan Raja Alkesindo di E-Katalog Inaproc. Kami menyediakan produk unggulan dengan harga transparan, proses pengadaan yang mudah, dan jaminan keaslian barang.
