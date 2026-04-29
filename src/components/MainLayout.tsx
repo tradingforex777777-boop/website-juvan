@@ -220,7 +220,7 @@ const Home = () => {
 
       {/* History Section */}
       <section className="py-24 px-6 bg-primary-light">
-        <div className="col-span-2 md:col-span-4 max-w-7xl mx-auto mb-16 text-center group overflow-hidden relative h-50">
+        <div className="max-w-7xl mx-auto mb-16 text-center group overflow-hidden relative h-50">
         <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <h2 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">SEJARAH</h2>
         </div>
@@ -245,7 +245,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}         
           >
-            <div className="col-span-2 md:col-span-4 bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white group overflow-hidden relative h-50">
+            <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white group overflow-hidden relative h-50">
             <div className="absolute px-4 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">TRACKS OF TIME</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
