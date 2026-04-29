@@ -447,7 +447,7 @@ const Product = () => {
       {/* Legal & Inaproc */}
       <section className="px-6 space-y-12 mb-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 group overflow-hidden relative">
-        <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
            {/* Keamanan & Legalitas */}
            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">             
              <div className="mb-8">
@@ -462,7 +462,7 @@ const Product = () => {
           
             {/* Inaproc */}
             <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white group overflow-hidden relative">
-            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+              <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
               <div className="mb-8">
                  <img src="https://i.ibb.co.com/YT8fs7Dp/inaproc.png" alt="Inaproc Logo" className="h-auto w-full" />
                  <span className="px-3 py-1 bg-white/10 text-white border border-white/20 rounded text-xs font-bold">Terdaftar di E-Katalog</span>
