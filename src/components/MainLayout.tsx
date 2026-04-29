@@ -278,7 +278,7 @@ const About = () => {
     <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto group overflow-hidden relative">
         <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Tentang Kami</h1>
         </div>
@@ -286,10 +286,10 @@ const About = () => {
 
       {/* Dedicated Services */}
       <section className="px-6 mb-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto overflow-hidden relative">
+          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
-            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+            <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">            
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Dedication in detail</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
               <p className="text-white text-lg leading-relaxed mb-6">
@@ -319,7 +319,7 @@ const About = () => {
       <section className="py-0 px-6 relative overflow-hidden">
         {/* Background blobs for visual interest */}
         
-        <div className="max-w-7xl mx-auto relative z-10">
+        <div className="max-w-7xl mx-auto relative z-10 overflow-hidden relative">
         <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-stretch">
             {/* Visi */}
@@ -385,7 +385,7 @@ const Product = () => {
     <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-12 text-center">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto overflow-hidden relative">
         <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Produk Kami</h1>
         </div>
@@ -393,7 +393,7 @@ const Product = () => {
       
       {/* Jual Beli */}
       <section className="px-6 mb-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto overflow-hidden relative">
           <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
             <div className="max-w-3xl">
@@ -446,7 +446,7 @@ const Product = () => {
       
       {/* Legal & Inaproc */}
       <section className="px-6 space-y-12 mb-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 overflow-hidden relative">
           <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
            {/* Keamanan & Legalitas */}
            <div className="bg-primary-dark border border-white/5 p-10 rounded-3xl shadow-2xl flex flex-col h-full text-white">
