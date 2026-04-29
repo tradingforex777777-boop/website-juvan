@@ -286,9 +286,9 @@ const About = () => {
 
       {/* Dedicated Services */}
       <section className="px-6 mb-24">
-        <div className="max-w-7xl mx-auto overflow-hidden relative">
-          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div className="max-w-7xl mx-auto">          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center overflow-hidden relative">
+            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
             <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">            
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Dedication in detail</span>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">PT Yuvan Raja Alkesindo</h2>
