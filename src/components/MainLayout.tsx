@@ -513,13 +513,15 @@ const Activity = () => {
     <div className="pt-24 pb-24 bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto group overflow-hidden relative">
+        <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Galeri Kami</h1>
         </div>
       </section>      
 
       <section className="px-6 mb-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto group overflow-hidden relative">
+          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white mb-16">
             <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Activities & Innovation</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-8">Jejak Visual Profesionalisme Kami</h2>
@@ -583,13 +585,15 @@ const Contact = () => {
     <div className="pt-24 pb-24 bg bg-primary-light min-h-screen">
       {/* Header Section */}
       <section className="px-6 mb-16 text-center">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto group overflow-hidden relative">
+        <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <h1 className="text-4xl md:text-5xl px-6 py-5 bg-primary-dark text-white rounded-full font-semibold">Kontak Kami</h1>
         </div>
       </section>
       
            
-        <div className="pb-24 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div className="pb-24 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center group overflow-hidden relative">
+          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
           <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
             <div>
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
@@ -633,7 +637,8 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative group overflow-hidden relative h-50">
+                  <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
