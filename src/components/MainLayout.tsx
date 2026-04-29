@@ -592,9 +592,9 @@ const Contact = () => {
       </section>
       
            
-        <div className="pb-24 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center group overflow-hidden relative">
-          <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
-          <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white">
+        <div className="pb-24 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">          
+          <div className="bg-primary-dark rounded-3xl p-8 md:p-16 border border-white/5 shadow-2xl text-white group overflow-hidden relative">
+            <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
             <div>
               <span className="px-4 py-1.5 bg-white/10 text-white border border-white/20 rounded-full text-xs font-bold uppercase tracking-wider mb-6 inline-block">Response Timely</span>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">Prioritas Respons Cepat</h2>
@@ -623,7 +623,7 @@ const Contact = () => {
             <div className="pb-24 px-6 max-w-7xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="col-span-2 md:col-span-4 bg-primary-dark p-6 rounded-2xl shadow-xl border border-white/5 group overflow-hidden relative h-50">
-                  <div className="absolute px-4 top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+                  <div className="absolute px-4 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="flex gap-5 items-start relative z-10">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
                       <MapPin size={24} />
@@ -638,7 +638,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative group overflow-hidden relative h-50">
-                  <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
+                  <div className="absolute px-0 top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
@@ -654,7 +654,8 @@ const Contact = () => {
                     </a>
                   </div>                 
                 </div>
-                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">                  
+                <div className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative group overflow-hidden relative h-50">
+                  <div className="absolute px-0 top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
@@ -671,7 +672,8 @@ const Contact = () => {
                   </div>                 
                 </div>
                  
-                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
+                <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative group overflow-hidden relative h-50">
+                  <div className="absolute px-0 top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
@@ -682,7 +684,8 @@ const Contact = () => {
                   </div>
                 </a>
   
-                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center relative overflow-hidden h-50">
+                <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="bg-primary-dark p-4 rounded-2xl shadow-xl border border-white/5 group flex flex-col items-center justify-center text-center group overflow-hidden relative h-50">
+                  <div className="absolute px-0 top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="w-12 h-12 bg-white/10 text-white rounded-xl flex items-center justify-center mb-3 group-hover:bg-[#25D366] group-hover:text-white transition-all transform group-hover:rotate-12">
