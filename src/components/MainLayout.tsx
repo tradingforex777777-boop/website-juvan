@@ -329,7 +329,7 @@ const About = () => {
               className="lg:col-span-2 bg-primary-dark p-12 rounded-[2.5rem] text-white shadow-2xl flex flex-col justify-center border border-white/10 group overflow-hidden relative"
             >
               <div className="absolute px-0 top-0 right-0 w-50 h-50 bg-blue-400/10 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-150 duration-500"></div>
-              <h3 className="text-4xl font-bold mb-8">Visi Kami</h3>
+              <h3 className="text-4xl font-bold mb-8">Visi Perusahaan</h3>
               <p className="text-xl leading-relaxed text-white font-medium italic">
                 "Menjadi perusahaan Kesehatan No 1 di Indonesia Membantu pemerintah dalam progam menciptakan masyarakat yang sehat dan sejahtera"
               </p>
